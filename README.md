@@ -19,4 +19,5 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
 
 ## References
-[1] **_tbd._**
+[1] **https://doi.org/10.1007/s40262-019-00776-y**
+Moj D, Maas H, Schaeftlein A, Hanke N, Gómez-Mantilla JD, Lehr T. A Comprehensive Whole-Body Physiologically Based Pharmacokinetic Model of Dabigatran Etexilate, Dabigatran and Dabigatran Glucuronide in Healthy Adults and Renally Impaired Patients. Clinical Pharmacokinetics 2019. PMID: 31104266. 
