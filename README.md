@@ -1,8 +1,8 @@
-# COMPOUND-Model
-**_tbd._**
+# Dabigatran-Model
+**Update of the originial model by Moj et al. 2019**
 
 ## Repository files
-**_tbd._**
+**lll**
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
