@@ -1,8 +1,13 @@
 # Dabigatran-Model
-**Update of the originial model by Moj et al. 2019**
+**Update of the original model by Moj et al. 2019**
 
 ## Repository files
-**lll**
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+This model is intended to be used as object drug in Pgp-mediated drug-drug interactions (DDI).
 
 ## Code of conduct
 Everyone interacting in the Open Systems Pharmacology community (codebases, issue trackers, chat rooms, mailing lists etc...) is expected to follow the Open Systems Pharmacology [code of conduct](https://github.com/Open-Systems-Pharmacology/Suite/blob/master/CODE_OF_CONDUCT.md#contributor-covenant-code-of-conduct).
