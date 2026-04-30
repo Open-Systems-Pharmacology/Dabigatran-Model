@@ -3,7 +3,7 @@
   "Projects": [
     {
       "Id": "Dabigatran",
-      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dabigatran-Model/master/Dabigatran-Model.json"
     }
   ],
   "ObservedDataSets": [],
