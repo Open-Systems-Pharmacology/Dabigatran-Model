@@ -179,17 +179,6 @@
           {
             "Project": "Dabigatran",
             "Simulation": "1160.0005_0.1mg_iv_update_PI",
-            "Output": "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
-          },
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_0.1mg_iv_update_PI",
-            "Output": "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-            "ObservedData": "1160-0005_0.1_iv_Dabigatran_urine"
-          },
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_0.1mg_iv_update_PI",
             "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
             "ObservedData": "1160-0005_0.1_iv_Dabigatran"
           },
@@ -207,18 +196,6 @@
         "SimulationDuration": null,
         "TimeUnit": null,
         "OutputMappings": [
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_5.0mg_iv_update_PI",
-            "Output": "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
-            "ObservedData": "1160-0005_5.0_iv_DabiGluc_urine"
-          },
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_5.0mg_iv_update_PI",
-            "Output": "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-            "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine"
-          },
           {
             "Project": "Dabigatran",
             "Simulation": "1160.0005_5.0mg_iv_update_PI",
