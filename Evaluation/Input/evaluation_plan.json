@@ -1,9 +1,9 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v3.5/schemas/OSP_Qualification_Plan_Schema.json",
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v3.3/schemas/OSP_Qualification_Plan_Schema.json",
   "Projects": [
     {
-      "Id": "Dabigatran-Model_small",
-      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model_small.json"
+      "Id": "Dabigatran",
+      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model.json"
     }
   ],
   "ObservedDataSets": [],
@@ -119,143 +119,23 @@
     },
     "AllPlots": [
       {
-        "Project": "Dabigatran-Model_small",
+        "Project": "Dabigatran",
         "Simulation": "1160.0005_0.1mg_iv_update_PI",
         "SectionReference": "Plots"
       },
       {
-        "Project": "Dabigatran-Model_small",
+        "Project": "Dabigatran",
         "Simulation": "1160.0005_0.1mg_iv_update_PI",
-        "SectionReference": "Plots"
+        "SectionReference": "Training"
       },
       {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_0.1mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_0.1mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_1.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_1.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_1.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_1.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
+        "Project": "Dabigatran",
         "Simulation": "1160.0005_5.0mg_iv_update_PI",
         "SectionReference": "Plots"
       },
       {
-        "Project": "Dabigatran-Model_small",
+        "Project": "Dabigatran",
         "Simulation": "1160.0005_5.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_5.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "1160.0005_5.0mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 110 mg bid",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough for CES1, CES2 - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 150 mg bid",
-        "SectionReference": "Test"
-      },
-      {
-        "Project": "Dabigatran-Model_small",
-        "Simulation": "Ctrough with CES2 only - 150 mg bid",
         "SectionReference": "Test"
       }
     ],
@@ -264,28 +144,28 @@
         "Title": "PredObs Dabi",
         "SectionReference": "Plots",
         "PlotTypes": "predictedVsObserved",
-        "Artifacts": "Plot",
+        "Artifacts": [],
         "Groups": []
       },
       {
         "Title": "Residuals Dabi",
         "SectionReference": "Plots",
         "PlotTypes": "residualsOverTime",
-        "Artifacts": "Plot",
+        "Artifacts": [],
         "Groups": []
       },
       {
         "Title": "PredObs Sum",
         "SectionReference": "Plots",
         "PlotTypes": "predictedVsObserved",
-        "Artifacts": "Plot",
+        "Artifacts": [],
         "Groups": []
       },
       {
         "Title": "Residuals Sum",
         "SectionReference": "Plots",
         "PlotTypes": "residualsOverTime",
-        "Artifacts": "Plot",
+        "Artifacts": [],
         "Groups": []
       }
     ],
@@ -297,54 +177,27 @@
         "TimeUnit": null,
         "OutputMappings": [
           {
-            "Project": "Dabigatran-Model_small",
+            "Project": "Dabigatran",
+            "Simulation": "1160.0005_0.1mg_iv_update_PI",
+            "Output": "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
+          },
+          {
+            "Project": "Dabigatran",
             "Simulation": "1160.0005_0.1mg_iv_update_PI",
             "Output": "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
             "ObservedData": "1160-0005_0.1_iv_Dabigatran_urine"
           },
           {
-            "Project": "Dabigatran-Model_small",
+            "Project": "Dabigatran",
             "Simulation": "1160.0005_0.1mg_iv_update_PI",
             "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
             "ObservedData": "1160-0005_0.1_iv_Dabigatran"
           },
           {
-            "Project": "Dabigatran-Model_small",
+            "Project": "Dabigatran",
             "Simulation": "1160.0005_0.1mg_iv_update_PI",
             "Output": "Organism|PeripheralVenousBlood|Dabigatran|SUM",
             "ObservedData": "1160-0005_0.1_iv_SUM"
-          }
-        ]
-      },
-      {
-        "Title": "iv - 1.0 mg",
-        "SectionReference": "Training",
-        "SimulationDuration": null,
-        "TimeUnit": null,
-        "OutputMappings": [
-          {
-            "Project": "Dabigatran-Model_small",
-            "Simulation": "1160.0005_1.0mg_iv_update_PI",
-            "Output": "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
-            "ObservedData": "1160-0005_1.0_iv_DabiGluc_urine"
-          },
-          {
-            "Project": "Dabigatran-Model_small",
-            "Simulation": "1160.0005_1.0mg_iv_update_PI",
-            "Output": "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-            "ObservedData": "1160-0005_1.0_iv_Dabigatran_urine"
-          },
-          {
-            "Project": "Dabigatran-Model_small",
-            "Simulation": "1160.0005_1.0mg_iv_update_PI",
-            "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "1160-0005_1.0_iv_Dabigatran"
-          },
-          {
-            "Project": "Dabigatran-Model_small",
-            "Simulation": "1160.0005_1.0mg_iv_update_PI",
-            "Output": "Organism|PeripheralVenousBlood|Dabigatran|SUM",
-            "ObservedData": "1160-0005_1.0_iv_SUM"
           }
         ]
       },
@@ -353,7 +206,32 @@
         "SectionReference": "Training",
         "SimulationDuration": null,
         "TimeUnit": null,
-        "OutputMappings": []
+        "OutputMappings": [
+          {
+            "Project": "Dabigatran",
+            "Simulation": "1160.0005_5.0mg_iv_update_PI",
+            "Output": "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+            "ObservedData": "1160-0005_5.0_iv_DabiGluc_urine"
+          },
+          {
+            "Project": "Dabigatran",
+            "Simulation": "1160.0005_5.0mg_iv_update_PI",
+            "Output": "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+            "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine"
+          },
+          {
+            "Project": "Dabigatran",
+            "Simulation": "1160.0005_5.0mg_iv_update_PI",
+            "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+            "ObservedData": "1160-0005_5.0_iv_Dabigatran"
+          },
+          {
+            "Project": "Dabigatran",
+            "Simulation": "1160.0005_5.0mg_iv_update_PI",
+            "Output": "Organism|PeripheralVenousBlood|Dabigatran|SUM",
+            "ObservedData": "1160-0005_5.0_iv_SUM"
+          }
+        ]
       }
     ],
     "DDIRatioPlots": [],
@@ -368,54 +246,54 @@
     },
     {
       "Reference": "Methods",
-      "Title": "Methods",
+      "Title": "Methodsduction",
       "Content": null,
       "Sections": [
         {
           "Reference": "Strategy",
-          "Title": "Modeling Strategy",
+          "Title": "Strategyduction",
           "Content": null
         },
         {
           "Reference": "Data",
-          "Title": "Data",
+          "Title": "Dataduction",
           "Content": null
         },
         {
           "Reference": "Assumptions",
-          "Title": "Model Parameters and Assumptions",
+          "Title": "Assumptionsduction",
           "Content": null
         }
       ]
     },
     {
       "Reference": "Results",
-      "Title": "Results and Discussion",
+      "Title": "Resultsduction",
       "Content": null,
       "Sections": [
         {
           "Reference": "Parameters",
-          "Title": "Final input parameters",
+          "Title": "Parametersduction",
           "Content": null
         },
         {
           "Reference": "Plots",
-          "Title": "Diagnostic Plots",
+          "Title": "Plotsduction",
           "Content": null
         },
         {
           "Reference": "Profiles",
-          "Title": "Concentration-Time Profiles",
+          "Title": "Profilesduction",
           "Content": null,
           "Sections": [
             {
               "Reference": "Training",
-              "Title": "Model Building",
+              "Title": "Trainingduction",
               "Content": null
             },
             {
               "Reference": "Test",
-              "Title": "Model Verification",
+              "Title": "Testduction",
               "Content": null
             }
           ]
@@ -424,12 +302,12 @@
     },
     {
       "Reference": "Conclusion",
-      "Title": "Conclusion",
+      "Title": "Conclusionduction",
       "Content": null
     },
     {
       "Reference": "References",
-      "Title": "References",
+      "Title": "Referencesduction",
       "Content": null
     }
   ],
