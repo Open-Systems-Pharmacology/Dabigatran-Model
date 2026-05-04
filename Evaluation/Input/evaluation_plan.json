@@ -121,17 +121,7 @@
       {
         "Project": "Dabigatran",
         "Simulation": "1160.0005_0.1mg_iv_update_PI",
-        "SectionReference": "Plots"
-      },
-      {
-        "Project": "Dabigatran",
-        "Simulation": "1160.0005_0.1mg_iv_update_PI",
         "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran",
-        "Simulation": "1160.0005_5.0mg_iv_update_PI",
-        "SectionReference": "Plots"
       },
       {
         "Project": "Dabigatran",
@@ -162,7 +152,7 @@
                 "Simulation": "1160.0005_5.0mg_iv_update_PI",
                 "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "1160-0005_5.0_iv_Dabigatran",
-                "Color": "#CC6677"
+                "Color": "#332288"
               }
             ]
           }
@@ -288,5 +278,9 @@
       "Content": null
     }
   ],
-  "Intro": {}
+  "Intro": [
+    {
+      "Path": "Content/titlepage.md"
+    }
+  ]
 }
