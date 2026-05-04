@@ -141,32 +141,32 @@
     ],
     "GOFMergedPlots": [
       {
-        "Title": "PredObs Dabi",
+        "Title": "Goodness of fit plot for concentration in plasma",
         "SectionReference": "Plots",
-        "PlotTypes": "predictedVsObserved",
-        "Artifacts": "Plot",
-        "Groups": []
-      },
-      {
-        "Title": "Residuals Dabi",
-        "SectionReference": "Plots",
-        "PlotTypes": "residualsOverTime",
-        "Artifacts": "Plot",
-        "Groups": []
-      },
-      {
-        "Title": "PredObs Sum",
-        "SectionReference": "Plots",
-        "PlotTypes": "predictedVsObserved",
-        "Artifacts": "Plot",
-        "Groups": []
-      },
-      {
-        "Title": "Residuals Sum",
-        "SectionReference": "Plots",
-        "PlotTypes": "residualsOverTime",
-        "Artifacts": "Plot",
-        "Groups": []
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
+        "Artifacts": ["Plot", "GMFE"],
+        "Groups": [
+          {
+            "Caption": "Intravenous administration",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160.0005_0.1mg_iv_update_PI",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0005_0.1_iv_Dabigatran",
+                "Color": "#CC6677"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160.0005_5.0mg_iv_update_PI",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0005_5.0_iv_Dabigatran",
+                "Color": "#CC6677"
+              }
+            ]
+          }
+        ]
       }
     ],
     "ComparisonTimeProfilePlots": [
