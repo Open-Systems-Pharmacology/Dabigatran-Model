@@ -136,7 +136,7 @@
       {
         "Project": "Dabigatran",
         "Simulation": "1160.0005_5.0mg_iv_update_PI",
-        "SectionReference": "Test"
+        "SectionReference": "Training"
       }
     ],
     "GOFMergedPlots": [
@@ -144,28 +144,28 @@
         "Title": "PredObs Dabi",
         "SectionReference": "Plots",
         "PlotTypes": "predictedVsObserved",
-        "Artifacts": [],
+        "Artifacts": "Plot",
         "Groups": []
       },
       {
         "Title": "Residuals Dabi",
         "SectionReference": "Plots",
         "PlotTypes": "residualsOverTime",
-        "Artifacts": [],
+        "Artifacts": "Plot",
         "Groups": []
       },
       {
         "Title": "PredObs Sum",
         "SectionReference": "Plots",
         "PlotTypes": "predictedVsObserved",
-        "Artifacts": [],
+        "Artifacts": "Plot",
         "Groups": []
       },
       {
         "Title": "Residuals Sum",
         "SectionReference": "Plots",
         "PlotTypes": "residualsOverTime",
-        "Artifacts": [],
+        "Artifacts": "Plot",
         "Groups": []
       }
     ],
