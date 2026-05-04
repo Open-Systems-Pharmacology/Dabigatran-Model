@@ -173,8 +173,8 @@
       {
         "Title": "iv - 0.1 mg",
         "SectionReference": "Training",
-        "SimulationDuration": null,
-        "TimeUnit": null,
+        "SimulationDuration": 50,
+        "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Dabigatran",
@@ -193,8 +193,8 @@
       {
         "Title": "iv - 5.0 mg",
         "SectionReference": "Training",
-        "SimulationDuration": null,
-        "TimeUnit": null,
+        "SimulationDuration": 50,
+        "TimeUnit": "h",
         "OutputMappings": [
           {
             "Project": "Dabigatran",
