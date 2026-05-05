@@ -2641,9 +2641,14 @@
           "ObservedData": "1160-0005_0.1_iv_Dabigatran"
         },
         {
-          "Scaling": "Log",
+          "Scaling": "Linear",
           "Path": "1160.0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
           "ObservedData": "1160-0005_0.1_iv_Dabigatran_urine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "1160.0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+          "ObservedData": "1160-0005_0.1_iv_SUM"
         }
       ],
       "Individual": "1160.0005_0.1mg_iv_update_PI",
@@ -2868,7 +2873,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "ng/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
