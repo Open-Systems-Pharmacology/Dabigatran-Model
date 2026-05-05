@@ -1,0 +1,245 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/v3.3/schemas/OSP_Qualification_Plan_Schema.json",
+  "Projects": [
+    {
+      "Id": "Dabigatran",
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dabigatran-Model/master/Dabigatran-Model.json"
+    }
+  ],
+  "ObservedDataSets": [],
+  "Plots": {
+    "AxesSettings": {
+      "GOFMergedPlotsPredictedVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "GOFMergedPlotsResidualsOverTime": [
+        {
+          "Type": "X",
+          "Dimension": "Time",
+          "Unit": "h",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Linear"
+        }
+      ],
+      "DDIRatioPlotsPredictedVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "DDIRatioPlotsResidualsVsObserved": [
+        {
+          "Type": "X",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "ComparisonTimeProfile": [
+        {
+          "Type": "X",
+          "Dimension": "Time",
+          "Unit": "h",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/l",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ],
+      "PKRatioPlots": [
+        {
+          "Type": "X",
+          "Dimension": "Age",
+          "Unit": "year(s)",
+          "GridLines": false,
+          "Scaling": "Linear"
+        },
+        {
+          "Type": "Y",
+          "Dimension": "Dimensionless",
+          "Unit": "",
+          "GridLines": false,
+          "Scaling": "Log"
+        }
+      ]
+    },
+    "PlotSettings": {
+      "ChartWidth": 500,
+      "ChartHeight": 400,
+      "Fonts": {
+        "AxisSize": 11,
+        "LegendSize": 9,
+        "OriginSize": 11,
+        "FontFamilyName": "Arial",
+        "WatermarkSize": 40
+      }
+    },
+    "AllPlots": [
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160.0005_0.1mg_iv_update_PI",
+        "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160.0005_5.0mg_iv_update_PI",
+        "SectionReference": "Training"
+      }
+    ],
+    "GOFMergedPlots": [
+      {
+        "Title": "Goodness of fit plot for concentration in plasma",
+        "SectionReference": "Plots",
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
+        "Artifacts": ["Plot", "GMFE"],
+        "Groups": [
+          {
+            "Caption": "Intravenous administration",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160.0005_0.1mg_iv_update_PI",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0005_0.1_iv_Dabigatran",
+                "Color": "#CC6677"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160.0005_5.0mg_iv_update_PI",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0005_5.0_iv_Dabigatran",
+                "Color": "#332288"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ComparisonTimeProfilePlots": [],
+    "DDIRatioPlots": [],
+    "PKRatioPlots": []
+  },
+  "Inputs": [],
+  "Sections": [
+    {
+      "Reference": "Intro",
+      "Title": "Introduction",
+      "Content": "Content/Section1_Introduction.md"
+    },
+    {
+      "Reference": "Methods",
+      "Title": "Methodsduction",
+      "Content": null,
+      "Sections": [
+        {
+          "Reference": "Strategy",
+          "Title": "Strategyduction",
+          "Content": null
+        },
+        {
+          "Reference": "Data",
+          "Title": "Dataduction",
+          "Content": null
+        },
+        {
+          "Reference": "Assumptions",
+          "Title": "Assumptionsduction",
+          "Content": null
+        }
+      ]
+    },
+    {
+      "Reference": "Results",
+      "Title": "Resultsduction",
+      "Content": null,
+      "Sections": [
+        {
+          "Reference": "Parameters",
+          "Title": "Parametersduction",
+          "Content": null
+        },
+        {
+          "Reference": "Plots",
+          "Title": "Plotsduction",
+          "Content": null
+        },
+        {
+          "Reference": "Profiles",
+          "Title": "Profilesduction",
+          "Content": null,
+          "Sections": [
+            {
+              "Reference": "Training",
+              "Title": "Trainingduction",
+              "Content": null
+            },
+            {
+              "Reference": "Test",
+              "Title": "Testduction",
+              "Content": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Reference": "Conclusion",
+      "Title": "Conclusionduction",
+      "Content": null
+    },
+    {
+      "Reference": "References",
+      "Title": "Referencesduction",
+      "Content": null
+    }
+  ],
+  "Intro": [
+    {
+      "Path": "Content/titlepage.md"
+    }
+  ]
+}
