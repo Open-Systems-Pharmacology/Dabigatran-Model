@@ -120,12 +120,12 @@
     "AllPlots": [
       {
         "Project": "Dabigatran",
-        "Simulation": "1160.0005_0.1mg_iv_update_PI",
+        "Simulation": "1160.0005 - 0.1 mg iv",
         "SectionReference": "Training"
       },
       {
         "Project": "Dabigatran",
-        "Simulation": "1160.0005_5.0mg_iv_update_PI",
+        "Simulation": "1160.0005 - 5.0 mg iv",
         "SectionReference": "Training"
       }
     ],
@@ -142,14 +142,14 @@
             "OutputMappings": [
               {
                 "Project": "Dabigatran",
-                "Simulation": "1160.0005_0.1mg_iv_update_PI",
+                "Simulation": "1160.0005 - 0.1 mg iv",
                 "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "1160-0005_0.1_iv_Dabigatran",
                 "Color": "#CC6677"
               },
               {
                 "Project": "Dabigatran",
-                "Simulation": "1160.0005_5.0mg_iv_update_PI",
+                "Simulation": "1160.0005 - 5.0 mg iv",
                 "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "1160-0005_5.0_iv_Dabigatran",
                 "Color": "#332288"
@@ -163,63 +163,70 @@
     "DDIRatioPlots": [],
     "PKRatioPlots": []
   },
-  "Inputs": [],
+  "Inputs": [
+    {
+      "Project": "Dabigatran",
+      "Type": "Compound",
+      "Name": "Dabigatran",
+      "SectionReference": "Parameters"
+    }
+  ],
   "Sections": [
     {
       "Reference": "Intro",
-      "Title": "Introduction",
+      "Title": "Intro",
       "Content": "Content/Section1_Introduction.md"
     },
     {
       "Reference": "Methods",
-      "Title": "Methodsduction",
+      "Title": "Methods",
       "Content": null,
       "Sections": [
         {
           "Reference": "Strategy",
-          "Title": "Strategyduction",
+          "Title": "Strategy",
           "Content": null
         },
         {
           "Reference": "Data",
-          "Title": "Dataduction",
+          "Title": "Data",
           "Content": null
         },
         {
           "Reference": "Assumptions",
-          "Title": "Assumptionsduction",
+          "Title": "Assumptions",
           "Content": null
         }
       ]
     },
     {
       "Reference": "Results",
-      "Title": "Resultsduction",
+      "Title": "Results",
       "Content": null,
       "Sections": [
         {
           "Reference": "Parameters",
-          "Title": "Parametersduction",
+          "Title": "Parameters",
           "Content": null
         },
         {
           "Reference": "Plots",
-          "Title": "Plotsduction",
+          "Title": "Plots",
           "Content": null
         },
         {
           "Reference": "Profiles",
-          "Title": "Profilesduction",
+          "Title": "Profiles",
           "Content": null,
           "Sections": [
             {
               "Reference": "Training",
-              "Title": "Trainingduction",
+              "Title": "Training",
               "Content": null
             },
             {
               "Reference": "Test",
-              "Title": "Testduction",
+              "Title": "Test",
               "Content": null
             }
           ]
@@ -228,12 +235,12 @@
     },
     {
       "Reference": "Conclusion",
-      "Title": "Conclusionduction",
+      "Title": "Conclusion",
       "Content": null
     },
     {
       "Reference": "References",
-      "Title": "Referencesduction",
+      "Title": "References",
       "Content": null
     }
   ],
