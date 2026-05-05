@@ -161,24 +161,7 @@
     ],
     "ComparisonTimeProfilePlots": [],
     "DDIRatioPlots": [],
-    "PKRatioPlots": [
-      {
-        "Title": "Goodness of fit plot for PK parameters",
-        "SectionReference": "Plots",
-        "PKParameters": [
-          "AUC"
-        ],
-        "Artifacts": "Plot",
-        "Groups": [
-          {
-            "Caption": "Intravenous administration",
-            "Color": "#CC6677",
-            "Symbol": "Circle",
-            "PKRatios": []
-          }
-        ]
-      }
-    ]
+    "PKRatioPlots": []
   },
   "Inputs": [],
   "Sections": [
