@@ -159,48 +159,7 @@
         ]
       }
     ],
-    "ComparisonTimeProfilePlots": [
-      {
-        "Title": "iv - 0.1 mg",
-        "SectionReference": "Training",
-        "SimulationDuration": 50,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_0.1mg_iv_update_PI",
-            "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "1160-0005_0.1_iv_Dabigatran"
-          },
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_0.1mg_iv_update_PI",
-            "Output": "Organism|PeripheralVenousBlood|Dabigatran|SUM",
-            "ObservedData": "1160-0005_0.1_iv_SUM"
-          }
-        ]
-      },
-      {
-        "Title": "iv - 5.0 mg",
-        "SectionReference": "Training",
-        "SimulationDuration": 50,
-        "TimeUnit": "h",
-        "OutputMappings": [
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_5.0mg_iv_update_PI",
-            "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-            "ObservedData": "1160-0005_5.0_iv_Dabigatran"
-          },
-          {
-            "Project": "Dabigatran",
-            "Simulation": "1160.0005_5.0mg_iv_update_PI",
-            "Output": "Organism|PeripheralVenousBlood|Dabigatran|SUM",
-            "ObservedData": "1160-0005_5.0_iv_SUM"
-          }
-        ]
-      }
-    ],
+    "ComparisonTimeProfilePlots": [],
     "DDIRatioPlots": [],
     "PKRatioPlots": []
   },
