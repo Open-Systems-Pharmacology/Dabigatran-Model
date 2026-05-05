@@ -163,7 +163,7 @@
     "DDIRatioPlots": [],
     "PKRatioPlots": [
       {
-        "Title": "Goodness of fit plot for PK parameters - Dabi",
+        "Title": "Goodness of fit plot for PK parameters",
         "SectionReference": "Plots",
         "PKParameters": [
           "AUC"
@@ -174,18 +174,7 @@
             "Caption": "Intravenous administration",
             "Color": "#CC6677",
             "Symbol": "Circle",
-            "PKRatios": [
-              {
-                "Project": "Dabigatran",
-                "Simulation": "1160.0005_0.1mg_iv_update_PI",
-                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)"
-              },
-              {
-                "Project": "Dabigatran",
-                "Simulation": "1160.0005_5.0mg_iv_update_PI",
-                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)"
-              }
-            ]
+            "PKRatios": []
           }
         ]
       }
