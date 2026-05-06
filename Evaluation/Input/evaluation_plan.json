@@ -120,17 +120,17 @@
     "AllPlots": [
       {
         "Project": "Dabigatran",
-        "Simulation": "1160.0005 - 0.1 mg iv",
-        "SectionReference": "Training"
-      },
-      {
-        "Project": "Dabigatran",
-        "Simulation": "1160.0005 - 5.0 mg iv",
+        "Simulation": "1160-0005 - 0.1 mg iv",
         "SectionReference": "Training"
       },
       {
         "Project": "Dabigatran",
         "Simulation": "1160-0005 - 1.0 mg iv",
+        "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160-0005 - 5.0 mg iv",
         "SectionReference": "Training"
       }
     ],
