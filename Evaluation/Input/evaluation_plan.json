@@ -147,17 +147,17 @@
             "OutputMappings": [
               {
                 "Project": "Dabigatran",
-                "Simulation": "1160-0005 - 0.1 mg iv",
-                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "1160-0005_0.1_iv_Dabigatran",
-                "Color": "#CC6677"
-              },
-              {
-                "Project": "Dabigatran",
                 "Simulation": "1160-0005 - 1.0 mg iv",
                 "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "1160-0005_1.0_iv_Dabigatran",
                 "Color": "#332288"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0005 - 0.1 mg iv",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0005_0.1_iv_Dabigatran",
+                "Color": "#CC6677"
               },
               {
                 "Project": "Dabigatran",
