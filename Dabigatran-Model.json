@@ -1589,224 +1589,6 @@
   ],
   "Individuals": [
     {
-      "Name": "European (P-gp modified)",
-      "Seed": 1726999937,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "1160.0061_update_PI",
-      "Seed": 2074701890,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.17,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 72.74,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 176.13,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "1160.0194_update_PI",
-      "Seed": 2090915093,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 36.19,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 83.83,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 179.09,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "Härtter 2012_update_PI",
-      "Seed": 2099975312,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "FEMALE",
-        "Age": {
-          "Value": 32.9,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 66.2,
-          "Unit": "kg"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "Blech 2008_update_PI",
-      "Seed": 2103599609,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 39.9,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 80.2,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 176.3,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
       "Name": "1160.0005_0.1mg_iv_update_PI",
       "Seed": 1108386031,
       "OriginData": {
@@ -1920,270 +1702,6 @@
         "Height": {
           "Value": 179.5,
           "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "Delavenne 2012_update_PI",
-      "Seed": 1332456828,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 22.0,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 75.0,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 180.0,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "1160.0074_Verapamil",
-      "Seed": 15091593,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 40.1,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 72.0,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 173.567,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "1160.0082_Clarithromycin",
-      "Seed": 377111937,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "FEMALE",
-        "Age": {
-          "Value": 35.2,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 75.6,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 175.3,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "Gouin-Thibault 2017_Clarithromycin",
-      "Seed": 1575371812,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 28.0,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 75.2,
-          "Unit": "kg"
-        },
-        "Height": {
-          "Value": 179.0,
-          "Unit": "cm"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "Prueksaritanont 2017_DDI cocktail",
-      "Seed": 1641242906,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "WhiteAmerican_NHANES_1997",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        }
-      },
-      "Parameters": [
-        {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "ExpressionProfiles": [
-        "AADAC|Human|European (P-gp modified, new ref. conc.)",
-        "ATP1A2|Human|European (P-gp modified, new ref. conc.)",
-        "CYP3A4|Human|European (P-gp modified, new ref. conc.)",
-        "GABRG2|Human|European (P-gp modified, new ref. conc.)",
-        "OATP1B1|Human|European (P-gp modified, new ref. conc.)",
-        "P-gp|Human|European (P-gp modified, new ref. conc.)",
-        "UGT1A4|Human|European (P-gp modified, new ref. conc.)",
-        "CES1|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "CES2|Human|46.1/2_Judge et al 2010_European_male_CES2 (intestine)",
-        "UGT2B15|Human|Tennezé 1999 (122) EM, n=36"
-      ]
-    },
-    {
-      "Name": "Rattanacheeworn 2021_Rifampicin",
-      "Seed": 1755490937,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "Asian_Tanaka_1996",
-        "Gender": "FEMALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 54.2,
-          "Unit": "kg"
         }
       },
       "Parameters": [
@@ -2594,2232 +2112,6 @@
           "Unit": "g/mol"
         }
       ]
-    },
-    {
-      "Name": "Rifampicin",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Optimized",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.5,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Templeton 2011",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 17.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVitro",
-                "Description": "Templeton 2011 (equilibrium dialysis)"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Aqueous solubility",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 2800.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Boman 1974"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Boman 1974"
-              }
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Optimized",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.24E-05,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 7.9,
-          "ValueOrigin": {
-            "Source": "Database",
-            "Description": "DrugBank DB01045"
-          }
-        },
-        {
-          "Type": "Acid",
-          "Pka": 1.7,
-          "ValueOrigin": {
-            "Source": "Database",
-            "Description": "DrugBank DB01045"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "MetabolizationSpecific_MM",
-          "DataSource": "Nakajima 2011",
-          "Molecule": "AADAC",
-          "Parameters": [
-            {
-              "Name": "Enzyme concentration",
-              "Value": 1.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Vmax",
-              "Value": 6.5,
-              "Unit": "µmol/l/min"
-            },
-            {
-              "Name": "Km",
-              "Value": 195.1,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 9.865,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "ActiveTransportSpecific_MM",
-          "DataSource": "Collett 2004",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Transporter concentration",
-              "Value": 60.0,
-              "Unit": "nmol/l"
-            },
-            {
-              "Name": "Vmax",
-              "Value": 2.87,
-              "Unit": "µmol/l/min"
-            },
-            {
-              "Name": "Km",
-              "Value": 55.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.6088,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "ActiveTransportSpecific_MM",
-          "DataSource": "Tirona 2003",
-          "Molecule": "OATP1B1",
-          "Parameters": [
-            {
-              "Name": "Transporter concentration",
-              "Value": 109.6,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Vmax",
-              "Value": 0.372,
-              "Unit": "µmol/l/min"
-            },
-            {
-              "Name": "Km",
-              "Value": 1.5,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 5.21004653,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Hanke et al. 2018"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Kajosaari 2005",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 18.5,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Kajosaari et al. 2005"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Reitman 2011",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 9.1,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Reitman 2011 (IC50 = Ki (169 µM / (1+ (0.1 µM / 177 µM) )"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Templeton 2011",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton 2011 (weighted mean for FHH)"
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 9.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton 2011 (weighted mean for FHH)"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Greiner 1999",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Hanke et al. 2018"
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 2.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Greiner et al. 1999"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Dixit 2007",
-          "Molecule": "OATP1B1",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Hanke et al. 2018"
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.383,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Assumed",
-          "Molecule": "AADAC",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Hanke et al. 2018"
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.985,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Kajosaari 2005",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 30.2,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Kajosaari et al. 2005"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Hirano 2006",
-          "Molecule": "OATP1B1",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.477,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hirano M, Maeda K, Shitara Y, Sugiyama Y. Drug-drug interaction between pitavastatin and various drugs via OATP1B1. Drug Metab Dispos. 2006;34:1229–36"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Buckley 2014",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 3.2,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Chen 2010",
-          "Molecule": "CYP1A2",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.65
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Rae 2001",
-          "Molecule": "CYP2E1",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.8
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Annaert 2010",
-          "Molecule": "OATP1B3",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.9,
-              "Unit": "µmol/l"
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 822.94,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "Clarithromycin",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Measurement",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.3,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Lappin 2011"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Measurement",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.3,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Chu 1993"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Measurement",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 12.17,
-              "Unit": "mg/ml",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Salem 2003"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 2.4,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Salem 2003"
-              }
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "fit",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.23E-06,
-              "Unit": "dm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Description": "optimized"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 8.99,
-          "ValueOrigin": {
-            "Source": "Publication",
-            "Description": "McFarland 1997"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "fit",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 0.0,
-              "Unit": "pmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 48.7,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Rodrigues 1997"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 76.5,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "KidneyClearance",
-          "DataSource": "fitted",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Body weight",
-              "Value": 71.5,
-              "Unit": "kg",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Blood flow rate (kidney)",
-              "Value": 1.31,
-              "Unit": "l/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Fraction unbound (experiment)",
-              "Value": 0.4
-            },
-            {
-              "Name": "Plasma clearance",
-              "Value": 1.75,
-              "Unit": "ml/min/kg"
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Eberl (2007)",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 4.1,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Eberl 2007"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "IrreversibleInhibition",
-          "DataSource": "fitted",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "kinact",
-              "Value": 0.04,
-              "Unit": "1/min"
-            },
-            {
-              "Name": "K_kinact_half",
-              "Value": 6.04,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Vermeer 2016",
-          "Molecule": "OATP1B1",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 5.3,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Vermeer 2016"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Vermeer 2016",
-          "Molecule": "OATP1B3",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 14.0,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Vermeer 2016"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 747.9534,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "R-Norverapamil",
-      "IsSmallMolecule": true,
-      "Lipophilicity": [
-        {
-          "Name": "logP",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.8407448658,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Measurement",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 5.1,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Measurement",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 46.0,
-              "Unit": "mg/ml"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.54
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.5447164381E-06,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 0.0994098912,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 8.75,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "D620",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 9.0,
-              "Unit": "pmol/min/pmol rec. enzyme"
-            },
-            {
-              "Name": "Km",
-              "Value": 144.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 145.6385399671,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0
-            }
-          ]
-        },
-        {
-          "InternalName": "ActiveTransport_InVitro_VesicularAssay_MM",
-          "DataSource": "Paper",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/transporter",
-              "Value": 0.00057724,
-              "Unit": "pmol/min/pmol transporter"
-            },
-            {
-              "Name": "Km",
-              "Value": 1.01,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 3.3916609583,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ],
-          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax normalized to the amount of transporter as input value which was determined in a vesicular transport assay."
-        },
-        {
-          "InternalName": "NoncompetitiveInhibition",
-          "DataSource": "Non-competitive",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.0383697779,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "IrreversibleInhibition",
-          "DataSource": "MBI",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "kinact",
-              "Value": 0.048,
-              "Unit": "1/min"
-            },
-            {
-              "Name": "K_kinact_half",
-              "Value": 6.1,
-              "Unit": "µmol/l"
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 440.584,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "R-Verapamil",
-      "IsSmallMolecule": true,
-      "Lipophilicity": [
-        {
-          "Name": "logP",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.8407448658,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Measurement",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 5.1,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Measurement",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 46.0,
-              "Unit": "mg/ml"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.54
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.5447164381E-06,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 0.0994098912,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 8.75,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0
-            }
-          ]
-        },
-        {
-          "InternalName": "ActiveTransport_InVitro_VesicularAssay_MM",
-          "DataSource": "Paper",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/transporter",
-              "Value": 0.00057724,
-              "Unit": "pmol/min/pmol transporter"
-            },
-            {
-              "Name": "Km",
-              "Value": 1.01,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 12.5970868779,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ],
-          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax normalized to the amount of transporter as input value which was determined in a vesicular transport assay."
-        },
-        {
-          "InternalName": "NoncompetitiveInhibition",
-          "DataSource": "Non-competitive",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.0383697779,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "IrreversibleInhibition",
-          "DataSource": "MBI",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "kinact",
-              "Value": 0.038,
-              "Unit": "1/min"
-            },
-            {
-              "Name": "K_kinact_half",
-              "Value": 27.63,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Norverapamil",
-          "Molecule": "CYP3A4",
-          "Metabolite": "R-Norverapamil",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 1.27,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 19.59,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 34.9352466212,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "D617",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 1.17,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 35.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 43.9812289146,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 454.611,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "S-Norverapamil",
-      "IsSmallMolecule": true,
-      "Lipophilicity": [
-        {
-          "Name": "logP",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.8407448658,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Measurement",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 11.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Other",
-                "Method": "Assumption"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Measurement",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 46.0,
-              "Unit": "mg/ml"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.54
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.5447164381E-06,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 0.0994098912,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 8.75,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "D620",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 6.5,
-              "Unit": "pmol/min/pmol rec. enzyme"
-            },
-            {
-              "Name": "Km",
-              "Value": 36.0,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 41.0994047535,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0
-            }
-          ]
-        },
-        {
-          "InternalName": "ActiveTransport_InVitro_VesicularAssay_MM",
-          "DataSource": "Paper",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/transporter",
-              "Value": 0.00057724,
-              "Unit": "pmol/min/pmol transporter"
-            },
-            {
-              "Name": "Km",
-              "Value": 1.01,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 3.3916609583,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ],
-          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax normalized to the amount of transporter as input value which was determined in a vesicular transport assay."
-        },
-        {
-          "InternalName": "NoncompetitiveInhibition",
-          "DataSource": "Non-competitive",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.0383697779,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "IrreversibleInhibition",
-          "DataSource": "MBI",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "kinact",
-              "Value": 0.08,
-              "Unit": "1/min"
-            },
-            {
-              "Name": "K_kinact_half",
-              "Value": 2.9,
-              "Unit": "µmol/l"
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 440.584,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "S-Verapamil",
-      "IsSmallMolecule": true,
-      "Lipophilicity": [
-        {
-          "Name": "logP",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 2.8407448658,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Measurement",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 11.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "InVivo"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Measurement",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 46.0,
-              "Unit": "mg/ml"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.54
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 3.5447164381E-06,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "Fitted",
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 0.0994098912,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 8.75,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0
-            }
-          ]
-        },
-        {
-          "InternalName": "ActiveTransport_InVitro_VesicularAssay_MM",
-          "DataSource": "Paper",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/transporter",
-              "Value": 0.00057724,
-              "Unit": "pmol/min/pmol transporter"
-            },
-            {
-              "Name": "Km",
-              "Value": 1.01,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 12.5970868779,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ],
-          "Description": "A transporter mediated unidirectional transfer of a compound across a cellular membrane is described as saturable process following Michaelis-Menten type kinetics. The corresponding kcat value is calculated from a specific Vmax normalized to the amount of transporter as input value which was determined in a vesicular transport assay."
-        },
-        {
-          "InternalName": "NoncompetitiveInhibition",
-          "DataSource": "Non-competitive",
-          "Molecule": "P-gp",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.0383697779,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "IrreversibleInhibition",
-          "DataSource": "MBI",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "kinact",
-              "Value": 0.034,
-              "Unit": "1/min"
-            },
-            {
-              "Name": "K_kinact_half",
-              "Value": 3.85,
-              "Unit": "µmol/l"
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "Norverapamil",
-          "Molecule": "CYP3A4",
-          "Metabolite": "S-Norverapamil",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 1.02,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 9.72,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 26.1743386639,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "MetabolizationLiverMicrosomes_MM",
-          "DataSource": "D617",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax for liver microsomes",
-              "Value": 0.86,
-              "Unit": "nmol/min/mg mic. protein"
-            },
-            {
-              "Name": "Km",
-              "Value": 23.64,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "kcat",
-              "Value": 56.4245798193,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '30b - final' on 2019-12-30 13:23"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Molecular weight",
-          "Value": 454.611,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "Itraconazole",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 4.624,
-              "Unit": "Log Units",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Description": "Fit"
-              }
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Templeton, 2008",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 0.6016197247,
-              "Unit": "%"
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "Solution fasted (Taupitz et al. 2013)",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 8.0,
-              "Unit": "mg/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Taupitz et al. 2013"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Taupitz et al. 2013"
-              }
-            }
-          ]
-        },
-        {
-          "Name": "Solution fed",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1.58,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5
-            }
-          ]
-        },
-        {
-          "Name": "Capsule fasted",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 0.9728307177,
-              "Unit": "mg/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from 'Capsule fasted' on 2019-05-15 12:25"
-              }
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5
-            }
-          ]
-        },
-        {
-          "Name": "Capsule fed",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 0.7,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 6.5
-            }
-          ]
-        }
-      ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 5.3261558344E-05,
-              "Unit": "dm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Description": "Fit"
-              }
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 3.7,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Isoherranen 2004",
-          "Molecule": "CYP3A4",
-          "Metabolite": "Hydroxy-Itraconazole",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.27,
-              "Unit": "pmol/min/pmol rec. enzyme",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "Km",
-              "Value": 2.0688492598,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.0402937875,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Isoherranen, 2004",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 1.3,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Description": "Isoherranen, 2004"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Shityakov 2014",
-          "Molecule": "ABCB1",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.008,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Shityakov 2014"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Cl",
-          "Value": 2.0
-        },
-        {
-          "Name": "Molecular weight",
-          "Value": 705.633,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "Hydroxy-Itraconazole",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 3.718,
-              "Unit": "Log Units"
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Templeton, 2008",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 1.7,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton, 2008"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "No value available",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1.0,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 3.7,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Isoherranen 2004",
-          "Molecule": "CYP3A4",
-          "Metabolite": "Keto-Itraconazole",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.543,
-              "Unit": "nmol/min/pmol rec. enzyme",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "Km",
-              "Value": 4.1716224833,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.0203370845,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen, 2004"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Isoherranen, 2004",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 14.4,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen, 2004"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Cl",
-          "Value": 2.0
-        },
-        {
-          "Name": "Molecular weight",
-          "Value": 721.633,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "Keto-Itraconazole",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 4.2109086248,
-              "Unit": "Log Units"
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Templeton, 2008",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 1.0,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton, 2008"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "No value available",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1.0,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 3.7,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Isoherranen 2004",
-          "Molecule": "CYP3A4",
-          "Metabolite": "N-desalkyl-Itraconazole",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.0869,
-              "Unit": "pmol/min/pmol rec. enzyme",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "Km",
-              "Value": 2.2214874285,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.3933927416,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Isoherranen, 2004",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 5.12,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Cl",
-          "Value": 2.0
-        },
-        {
-          "Name": "Molecular weight",
-          "Value": 719.617,
-          "Unit": "g/mol"
-        }
-      ]
-    },
-    {
-      "Name": "N-desalkyl-Itraconazole",
-      "IsSmallMolecule": true,
-      "PlasmaProteinBindingPartner": "Albumin",
-      "Lipophilicity": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Lipophilicity",
-              "Value": 5.1837535822,
-              "Unit": "Log Units"
-            }
-          ]
-        }
-      ],
-      "FractionUnbound": [
-        {
-          "Name": "Templeton, 2008",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "Fraction unbound (plasma, reference value)",
-              "Value": 1.1,
-              "Unit": "%",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton, 2008"
-              }
-            }
-          ]
-        }
-      ],
-      "Solubility": [
-        {
-          "Name": "No value available",
-          "Parameters": [
-            {
-              "Name": "Solubility at reference pH",
-              "Value": 1.0,
-              "Unit": "mg/l"
-            },
-            {
-              "Name": "Reference pH",
-              "Value": 7.0
-            }
-          ]
-        }
-      ],
-      "PkaTypes": [
-        {
-          "Type": "Base",
-          "Pka": 3.7,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "Processes": [
-        {
-          "InternalName": "rCYP450_MM",
-          "DataSource": "Isoherranen 2004",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "In vitro Vmax/recombinant enzyme",
-              "Value": 0.0,
-              "Unit": "nmol/min/pmol rec. enzyme"
-            },
-            {
-              "Name": "Km",
-              "Value": 0.6284266369,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            },
-            {
-              "Name": "kcat",
-              "Value": 0.0605873508,
-              "Unit": "1/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "GFR",
-          "Species": "Human",
-          "Parameters": [
-            {
-              "Name": "GFR fraction",
-              "Value": 1.0,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen 2004"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Isoherranen, 2004",
-          "Molecule": "CYP3A4",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.32,
-              "Unit": "nmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Isoherranen, 2004"
-              }
-            }
-          ]
-        }
-      ],
-      "CalculationMethods": [
-        "Cellular partition coefficient method - Rodgers and Rowland",
-        "Cellular permeability - PK-Sim Standard"
-      ],
-      "Parameters": [
-        {
-          "Name": "Cl",
-          "Value": 2.0
-        },
-        {
-          "Name": "Molecular weight",
-          "Value": 649.527,
-          "Unit": "g/mol"
-        }
-      ]
     }
   ],
   "Formulations": [
@@ -4877,119 +2169,6 @@
   ],
   "Protocols": [
     {
-      "Name": "0061_110+150mg",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 110.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 13.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 350.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 13.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "0194_150mg",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 5.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
       "Name": "0005_iv_0.1mg",
       "ApplicationType": "Intravenous",
       "DosingInterval": "Single",
@@ -5034,1605 +2213,6 @@
           "Unit": "min"
         }
       ]
-    },
-    {
-      "Name": "0061_110mg",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 110.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 13.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "0061_150mg",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 13.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI, Delavenne 2012 - Dabigatran (70.5h)",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 300.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 0.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 2",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.5,
-                  "Unit": "h",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 2.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 70.5,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI, Delavenne 2012 - Clarithromycin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 2",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 9.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 3",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 24.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 4",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 33.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 5",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 48.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 6",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 57.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 7",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 70.5,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 2.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "0001_200mg",
-      "ApplicationType": "Oral",
-      "DosingInterval": "Single",
-      "Parameters": [
-        {
-          "Name": "InputDose",
-          "Value": 200.0,
-          "Unit": "mg"
-        }
-      ]
-    },
-    {
-      "Name": "Rifampicin DDI - Dabigatran",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 192.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 3",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 360.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 4",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 528.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Rifampicin DDI - Rifampicin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 36.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 60.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 3",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 84.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 4",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 108.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 5",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 132.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 6",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 156.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 7",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 180.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 300.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 2.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            },
-            {
-              "Name": "Schema Item 2",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.5,
-                  "Unit": "h",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 2.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Verapamil DDI - Dabigatran",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 1.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Verapamil DDI - R-Verapamil (-1 h)",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 55.545,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Verapamil DDI - S-Verapamil (-1 h)",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "InputDose",
-                  "Value": 55.545,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI - Dabigatran (121h)",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 150.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 121.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI - Clarithromycin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 7",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 12.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI, Gouin 2017 - Clarithromycin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 7",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 10.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Clarithromycin DDI, Gouin 2017 - Dabigatran",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 300.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 0.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 96.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Cocktail DDI, Prueksaritanont 2017 - Clarithromycin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 7",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 6.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 0.0,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 3",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 500.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.0,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 84.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 3.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Cocktail DDI, Prueksaritanont 2017 - Dabigatran",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.375,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.0,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Cocktail DDI, Prueksaritanont 2017 - Itraconazole",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 7",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.0,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {
-                    "Source": "Unknown"
-                  }
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 3.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 2",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 0.25,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        },
-        {
-          "Name": "Schema 3",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.0,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 96.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Cocktail DDI, Prueksaritanont 2017 - Rifampicin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 600.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 0.0,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Cocktail DDI, Rattanacheeworn 2021 - Rifampicin",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 450.0,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 0.0,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
-    },
-    {
-      "Name": "Cocktail DDI, Rattanacheeworn 2021 - Dabigatran",
-      "DosingInterval": "Single",
-      "Schemas": [
-        {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h"
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 0.75,
-                  "Unit": "mg"
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 4.5,
-                  "Unit": "ml/kg"
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 1.0
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 0.0,
-              "Unit": "h"
-            }
-          ]
-        }
-      ],
-      "TimeUnit": "h"
     }
   ],
   "ObserverSets": [
@@ -6882,7 +2462,6 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM",
         "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
         "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
@@ -7122,7 +2701,141 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran_update_V12_clean\n1160.0005_0.1mg_iv_update\n2026-03-05 15:46"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 0.1 mg iv\n2026-05-06 05:36"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 0.1 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 0.1 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 7,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "1160-0005_0.1_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_0.1_iv_Dabigatran|Time",
+              "Y": "1160-0005_0.1_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_0.1_iv_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_0.1_iv_SUM|Time",
+              "Y": "1160-0005_0.1_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_0.1_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
+              "X": "1160-0005_0.1_iv_Dabigatran_urine|Time",
+              "Y": "1160-0005_0.1_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0005 - 0.1 mg iv\n2026-05-06 07:32"
         }
       ]
     },
@@ -7176,52 +2889,33 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM",
         "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
         "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
       ],
       "OutputMappings": [
         {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-          "ObservedData": "1160-0005_5.0_iv_SUM"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine",
-          "Weights": [
-            3.0
-          ]
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-          "ObservedData": "1160-0005_5.0_iv_SUM"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine",
-          "Weights": [
-            3.0
-          ]
-        },
-        {
           "Scaling": "Linear",
           "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
           "ObservedData": "1160-0005_5.0_iv_DabiGluc_urine"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "1160-0005_5.0_iv_Dabigatran"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+          "ObservedData": "1160-0005_5.0_iv_SUM"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+          "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine",
+          "Weights": [
+            3.0
+          ]
         }
       ],
       "Individual": "1160.0005_5.0mg_iv_update_PI",
@@ -7444,7 +3138,153 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran_update_V12_clean\n1160.0005_5.0mg_iv_update\n2026-03-05 15:46"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 5.0 mg iv\n2026-05-06 05:37"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 7,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_5.0_iv_Dabigatran|Time",
+              "Y": "1160-0005_5.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_5.0_iv_SUM|Time",
+              "Y": "1160-0005_5.0_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
+              "X": "1160-0005_5.0_iv_Dabigatran_urine|Time",
+              "Y": "1160-0005_5.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_DabiGluc_urine-DabiGluc-Kidney-Urine-Measurement",
+              "X": "1160-0005_5.0_iv_DabiGluc_urine|Time",
+              "Y": "1160-0005_5.0_iv_DabiGluc_urine|ObservedData|Kidney|Urine|DabiGluc|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0005 - 5.0 mg iv\n2026-05-06 07:28"
         }
       ]
     },
@@ -7498,7 +3338,6 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM",
         "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
         "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
@@ -7745,7 +3584,153 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran_update_V12_clean\n1160.0005_1.0mg_iv_update\n2026-03-05 15:46"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-06 05:37"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 7,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "1160-0005_1.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
+              "X": "1160-0005_1.0_iv_Dabigatran_urine|Time",
+              "Y": "1160-0005_1.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_1.0_iv_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_1.0_iv_SUM|Time",
+              "Y": "1160-0005_1.0_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_1.0_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_1.0_iv_Dabigatran|Time",
+              "Y": "1160-0005_1.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_1.0_iv_DabiGluc_urine-DabiGluc-Kidney-Urine-Measurement",
+              "X": "1160-0005_1.0_iv_DabiGluc_urine|Time",
+              "Y": "1160-0005_1.0_iv_DabiGluc_urine|ObservedData|Kidney|Urine|DabiGluc|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-06 07:30"
         }
       ]
     }
