@@ -2817,7 +2817,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "1160-0005 - Dabigatran iv 0.1 mg - lin",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3120,7 +3120,7 @@
               }
             }
           ],
-          "Name": "1160-0005 - Dabigatran iv 0.1 mg - log",
+          "Name": "1160-0005 - Dabigatran iv 5.0 mg - log",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3266,7 +3266,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "1160-0005 - Dabigatran iv 5.0 mg - lin",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3292,9 +3292,9 @@
       "Name": "1160-0005 - 1.0 mg iv",
       "Model": "4Comp",
       "ObservedData": [
-        "1160-0005_1.0_iv_Dabigatran_urine",
-        "1160-0005_1.0_iv_SUM",
         "1160-0005_1.0_iv_Dabigatran",
+        "1160-0005_1.0_iv_SUM",
+        "1160-0005_1.0_iv_Dabigatran_urine",
         "1160-0005_1.0_iv_DabiGluc_urine"
       ],
       "Solver": {},
@@ -3333,14 +3333,17 @@
         },
         {
           "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM",
-        "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-        "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
+        "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+        "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv"
       ],
       "OutputMappings": [
         {
@@ -3457,8 +3460,6 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.1,
-              "Max": 51.2,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -3480,33 +3481,43 @@
           ],
           "Curves": [
             {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 4
-              }
-            },
-            {
               "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
               "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
                 "LegendIndex": 2
               }
             },
             {
-              "Name": "1160-0005_1.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
-              "X": "1160-0005_1.0_iv_Dabigatran_urine|Time",
-              "Y": "1160-0005_1.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
+              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 3,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#ECD33A",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
               }
             },
             {
@@ -3515,7 +3526,7 @@
               "Y": "1160-0005_1.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 9,
+                "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -3526,31 +3537,21 @@
               "Y": "1160-0005_1.0_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
               "CurveOptions": {
                 "Color": "#00C0C0",
-                "LegendIndex": 10,
+                "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
-              "X": "Time",
-              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+              "Name": "1160-0005_1.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
+              "X": "1160-0005_1.0_iv_Dabigatran_urine|Time",
+              "Y": "1160-0005_1.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#ECD33A",
-                "LegendIndex": 8,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
-              "X": "Time",
-              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
                 "LegendIndex": 7,
-                "LineStyle": "Dash"
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             },
             {
@@ -3560,13 +3561,13 @@
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#FF8000",
-                "LegendIndex": 12,
+                "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "1160-0005 - Dabigatran iv 0.1 mg - log",
+          "Name": "1160-0005 - Dabigatran iv 1.0 mg - log",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3581,10 +3582,10 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
+            "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-06 05:37"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-07 05:56"
         },
         {
           "Axes": [
@@ -3631,7 +3632,7 @@
               "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
-                "LegendIndex": 2
+                "LegendIndex": 1
               }
             },
             {
@@ -3640,18 +3641,7 @@
               "Y": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
               "CurveOptions": {
                 "Color": "#00C0C0",
-                "LegendIndex": 4
-              }
-            },
-            {
-              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
-              "X": "Time",
-              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 8,
-                "LineStyle": "Dash"
+                "LegendIndex": 2
               }
             },
             {
@@ -3661,18 +3651,28 @@
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#FF8000",
-                "LegendIndex": 7,
+                "LegendIndex": 3,
                 "LineStyle": "Dash"
               }
             },
             {
-              "Name": "1160-0005_1.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
-              "X": "1160-0005_1.0_iv_Dabigatran_urine|Time",
-              "Y": "1160-0005_1.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#ECD33A",
-                "LegendIndex": 11,
+                "LegendIndex": 4,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "1160-0005_1.0_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_1.0_iv_Dabigatran|Time",
+              "Y": "1160-0005_1.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -3683,18 +3683,19 @@
               "Y": "1160-0005_1.0_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
               "CurveOptions": {
                 "Color": "#00C0C0",
-                "LegendIndex": 10,
+                "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "1160-0005_1.0_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0005_1.0_iv_Dabigatran|Time",
-              "Y": "1160-0005_1.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "Name": "1160-0005_1.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
+              "X": "1160-0005_1.0_iv_Dabigatran_urine|Time",
+              "Y": "1160-0005_1.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
               "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 9,
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -3706,13 +3707,13 @@
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#FF8000",
-                "LegendIndex": 12,
+                "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "1160-0005 - Dabigatran iv 1.0 mg - lin",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -3730,7 +3731,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-06 07:30"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-07 05:59"
         }
       ]
     }
