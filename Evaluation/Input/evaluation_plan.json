@@ -3,7 +3,15 @@
   "Projects": [
     {
       "Id": "Dabigatran",
-      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dabigatran-Model/master/Dabigatran-Model.json"
+      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model.json"
+    },
+    {
+      "Id": "Clarithromycin",
+      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Clarithromycin_V11.json"
+    },
+    {
+      "Id": "Dabigatran-Clarithromycin-DDI",
+      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model.json"
     }
   ],
   "ObservedDataSets": [],
@@ -92,8 +100,8 @@
       "PKRatioPlots": [
         {
           "Type": "X",
-          "Dimension": "Age",
-          "Unit": "year(s)",
+          "Dimension": "Dimensionless",
+          "Unit": "",
           "GridLines": false,
           "Scaling": "Linear"
         },
@@ -132,6 +140,16 @@
         "Project": "Dabigatran",
         "Simulation": "1160-0005 - 5.0 mg iv",
         "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran-Clarithromycin-DDI",
+        "Simulation": "1160-0082 - DDI Clarithromycin",
+        "SectionReference": "Test"
+      },
+      {
+        "Project": "Dabigatran-Clarithromycin-DDI",
+        "Simulation": "1160-0082 - DDI Control",
+        "SectionReference": "Test"
       }
     ],
     "GOFMergedPlots": [
