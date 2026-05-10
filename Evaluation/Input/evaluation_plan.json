@@ -3,15 +3,15 @@
   "Projects": [
     {
       "Id": "Dabigatran",
-      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dabigatran-Model/master/Dabigatran-Model.json"
     },
     {
       "Id": "Clarithromycin",
-      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Clarithromycin_V11.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dabigatran-Model/master/Clarithromycin_V11.json"
     },
     {
       "Id": "Dabigatran-Clarithromycin-DDI",
-      "Path": "/pmx_bip/PMx_Playground/hanken/OSP_Qualification_Reports/Dabigatran/Dabigatran-Model.json"
+      "Path": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/Dabigatran-Model/master/Dabigatran-Model.json"
     }
   ],
   "ObservedDataSets": [],
