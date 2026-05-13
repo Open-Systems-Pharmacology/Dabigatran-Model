@@ -152,6 +152,26 @@
         "Project": "Dabigatran",
         "Simulation": "Blech 2008 - 200 mg Solution",
         "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "Delavenne 2012 - DDI Control",
+        "SectionReference": "Test"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160-0074 - DDI Control",
+        "SectionReference": "Test"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160-0082 - DDI Control",
+        "SectionReference": "Test"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "Härtter 2012 - DDI Control",
+        "SectionReference": "Training"
       }
     ],
     "GOFMergedPlots": [
@@ -232,6 +252,40 @@
                 "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "1160-0194_Capsule_DAB_Mean",
                 "Color": "#332288"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "Härtter 2012 - DDI Control",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Härtter 2012_Rifa-Dabi_Control_Dabigatran",
+                "Color": "#332288"
+              }
+            ]
+          },
+          {
+            "Caption": "Oral capsule - Verification dataset",
+            "Symbol": "Hexagon",
+            "OutputMappings": [
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0074 - DDI Control",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0074_Vera-Dabi_Control_Dabigatran",
+                "Color": "#117733"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0082 - DDI Control",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0082_Clari-Dabi_Control_Dabigatran",
+                "Color": "#117733"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "Delavenne 2012 - DDI Control",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "Delavenne 2012_Clari-Dabi_Control",
+                "Color": "#117733"
               }
             ]
           }
@@ -246,6 +300,18 @@
     {
       "Project": "Dabigatran",
       "Type": "Compound",
+      "Name": "DabiEtex",
+      "SectionReference": "Parameters"
+    },
+    {
+      "Project": "Dabigatran",
+      "Type": "Compound",
+      "Name": "DabiGluc",
+      "SectionReference": "Parameters"
+    },
+    {
+      "Project": "Dabigatran",
+      "Type": "Compound",
       "Name": "Dabigatran",
       "SectionReference": "Parameters"
     }
@@ -253,7 +319,7 @@
   "Sections": [
     {
       "Reference": "Intro",
-      "Title": "Intro",
+      "Title": "Introduction",
       "Content": "Content/Section1_Introduction.md"
     },
     {
@@ -263,7 +329,7 @@
       "Sections": [
         {
           "Reference": "Strategy",
-          "Title": "Strategy",
+          "Title": "Modeling Strategy",
           "Content": null
         },
         {
@@ -273,39 +339,39 @@
         },
         {
           "Reference": "Assumptions",
-          "Title": "Assumptions",
+          "Title": "Model Parameters and Assumptions",
           "Content": null
         }
       ]
     },
     {
       "Reference": "Results",
-      "Title": "Results",
+      "Title": "Results and Discussion",
       "Content": null,
       "Sections": [
         {
           "Reference": "Parameters",
-          "Title": "Parameters",
+          "Title": "Final input parameters",
           "Content": null
         },
         {
           "Reference": "Plots",
-          "Title": "Plots",
+          "Title": "Diagnostic Plots",
           "Content": null
         },
         {
           "Reference": "Profiles",
-          "Title": "Profiles",
+          "Title": "Concentration-Time Profiles",
           "Content": null,
           "Sections": [
             {
               "Reference": "Training",
-              "Title": "Training",
+              "Title": "Model Building",
               "Content": null
             },
             {
               "Reference": "Test",
-              "Title": "Test",
+              "Title": "Model Verification",
               "Content": null
             }
           ]
