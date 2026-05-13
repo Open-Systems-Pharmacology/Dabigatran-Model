@@ -132,6 +132,26 @@
         "Project": "Dabigatran",
         "Simulation": "1160-0005 - 5.0 mg iv",
         "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160-0061 - 110+150 mg BID",
+        "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160-0194 - 150 mg Capsule",
+        "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "1160-0194 - 150 mg Solution",
+        "SectionReference": "Training"
+      },
+      {
+        "Project": "Dabigatran",
+        "Simulation": "Blech 2008 - 200 mg Solution",
+        "SectionReference": "Training"
       }
     ],
     "GOFMergedPlots": [
@@ -142,16 +162,9 @@
         "Artifacts": ["Plot", "GMFE"],
         "Groups": [
           {
-            "Caption": "Intravenous administration",
-            "Symbol": "Circle",
+            "Caption": "Intravenous infusion",
+            "Symbol": "InvertedTriangle",
             "OutputMappings": [
-              {
-                "Project": "Dabigatran",
-                "Simulation": "1160-0005 - 1.0 mg iv",
-                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-                "ObservedData": "1160-0005_1.0_iv_Dabigatran",
-                "Color": "#332288"
-              },
               {
                 "Project": "Dabigatran",
                 "Simulation": "1160-0005 - 0.1 mg iv",
@@ -161,10 +174,64 @@
               },
               {
                 "Project": "Dabigatran",
+                "Simulation": "1160-0005 - 1.0 mg iv",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0005_1.0_iv_Dabigatran",
+                "Color": "#CC6677"
+              },
+              {
+                "Project": "Dabigatran",
                 "Simulation": "1160-0005 - 5.0 mg iv",
                 "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
                 "ObservedData": "1160-0005_5.0_iv_Dabigatran",
-                "Color": "#DDCC77"
+                "Color": "#CC6677"
+              }
+            ]
+          },
+          {
+            "Caption": "Oral solution",
+            "Symbol": "Circle",
+            "OutputMappings": [
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0194 - 150 mg Solution",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0194_Solution_DAB_Mean",
+                "Color": "#88CCEE"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "Blech 2008 - 200 mg Solution",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0001_Mean_953_200mg",
+                "Color": "#88CCEE"
+              }
+            ]
+          },
+          {
+            "Caption": "Oral capsule",
+            "Symbol": "Square",
+            "OutputMappings": [
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0061 - 110+150 mg BID",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0061_110_D953_Mean",
+                "Color": "#332288"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0061 - 110+150 mg BID",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0061_150_D953_Mean",
+                "Color": "#332288"
+              },
+              {
+                "Project": "Dabigatran",
+                "Simulation": "1160-0194 - 150 mg Capsule",
+                "Output": "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+                "ObservedData": "1160-0194_Capsule_DAB_Mean",
+                "Color": "#332288"
               }
             ]
           }
