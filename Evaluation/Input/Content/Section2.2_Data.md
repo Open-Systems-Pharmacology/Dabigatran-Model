@@ -14,27 +14,30 @@ A literature search was performed to collect available information on physicoche
 
 ### Clinical Data  <a id="clinical-data"></a>
 
-A literature search was performed to collect available clinical data on dapagliflozin in healthy adults.
+A literature search was performed to collect available clinical data on dabigatran in healthy adults.
 
 #### Model Building <a id="model-building"></a>
 
 The following studies were used for model building (training data):
 
-| Publication                 | Arm / Treatment / Information used for model building |
+| Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of X mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Blech 2008](#main-references) | Healthy Subjects with a single dose of X mg           |
+| [Härtter 2012](#main-references) | Healthy Subjects with a single dose of X mg           |
 
 #### Model Verification <a id="model-verification"></a>
 
 The following studies were used for model verification:
 
-| Publication                 | Arm / Treatment / Information used for model building |
+| Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR](#main-references) | Healthy Subjects with a single dose of Y mg           |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
-| ...                         | ...                                                   |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [Delavenne 2013](#main-references) | Healthy Subjects with a single dose of X mg           |
 
