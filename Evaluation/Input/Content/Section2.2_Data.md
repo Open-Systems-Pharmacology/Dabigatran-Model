@@ -22,14 +22,14 @@ The following studies were used for model building (training data):
 
 | Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
-| [1160-0005 internal clinical trial report 2001] | Intravenous infusion of 0.1 mg (single dose)          |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [1160-0061 internal clinical trial report 2006] | Oral capsule administration of 110 mg and 150 mg (twice daily)          |
-| [1160-0194 internal clinical trial report YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Blech 2008](#main-references) | Healthy Subjects with a single dose of X mg           |
-| [Härtter 2012](#main-references) | Healthy Subjects with a single dose of X mg           |
+| 1160-0005 internal clinical trial report 2001 | Intravenous infusion of 0.1 mg (single dose)          |
+| 1160-0005 internal clinical trial report 2001 | Intravenous infusion of 1.0 mg (single dose)          |
+| 1160-0005 internal clinical trial report 2001 | Intravenous infusion of 5.0 mg (single dose)          |
+| 1160-0061 internal clinical trial report 2006 | Oral capsule administration of 110 mg and 150 mg (twice daily)          |
+| 1160-0194 internal clinical trial report 2014 | Oral solution administration of 150 mg (twice daily)          |
+| 1160-0194 internal clinical trial report 2014 | Oral capsule administration of 150 mg (twice daily)          |
+| [Blech 2008](#main-references) | Oral solution administration of 200 mg (single dose)           |
+| [Härtter 2012](#main-references) | Oral capsule administration of 150 mg (single dose)           |
 
 #### Model Verification <a id="model-verification"></a>
 
@@ -37,7 +37,7 @@ The following studies were used for model verification:
 
 | Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
-| [1160-0074 internal clinical trial report YEAR] | Healthy Subjects with a single dose of X mg           |
-| [1160-0082 internal clinical trial report YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Delavenne 2013](#main-references) | Healthy Subjects with a single dose of X mg           |
+| 1160-0074 internal clinical trial report 2009 | Oral capsule administration of 150 mg (single dose)           |
+| 1160-0082 internal clinical trial report 2008 | Oral capsule administration of 150 mg (single dose)           |
+| [Delavenne 2013](#main-references) | Oral capsule administration of 300 mg (single dose)           |
 
