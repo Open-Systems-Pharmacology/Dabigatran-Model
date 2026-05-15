@@ -22,11 +22,11 @@ The following studies were used for model building (training data):
 
 | Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
+| [1160-0005 internal clinical trial report 2001] | Intravenous infusion of 0.1 mg (single dose)          |
 | [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
 | [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [1160-0061 internal clinical trial report 2006] | Oral capsule administration of 110 mg and 150 mg (twice daily)          |
+| [1160-0194 internal clinical trial report YEAR] | Healthy Subjects with a single dose of X mg           |
 | [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
 | [Blech 2008](#main-references) | Healthy Subjects with a single dose of X mg           |
 | [Härtter 2012](#main-references) | Healthy Subjects with a single dose of X mg           |
@@ -37,7 +37,7 @@ The following studies were used for model verification:
 
 | Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
-| [Dummy YEAR] | Healthy Subjects with a single dose of X mg           |
+| [1160-0074 internal clinical trial report YEAR] | Healthy Subjects with a single dose of X mg           |
+| [1160-0082 internal clinical trial report YEAR] | Healthy Subjects with a single dose of X mg           |
 | [Delavenne 2013](#main-references) | Healthy Subjects with a single dose of X mg           |
 
