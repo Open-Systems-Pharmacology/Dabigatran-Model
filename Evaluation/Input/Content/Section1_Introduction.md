@@ -1,13 +1,10 @@
-COMPOUND is an active, highly selective ... (Information about Pharmacology)
+Dabigatran is an oral direct thrombin inhibitor administered as a pharmacologically inactive prodrug, dabigatran etexilate. After absorption, it undergoes enzymatic conversion via carboxylesterases (CES1 in the liver and CES2 in the intestine) to the active moiety dabigatran. Dabigatran (etexilate) shows low oral bioavailability (~6–7%), moderate inter-individual variability, and is predominantly eliminated unchanged via renal excretion.
 
-COMPOUND is ...  (Information about relevant Pharmacokinetics)
+In addition to renal clearance, dabigatran undergoes glucuronidation, forming dabigatran acylglucuronide, which contributes to total active exposure. Absorption of dabigatran etexilate is strongly influenced by P-glycoprotein (P-gp), making transporter activity a key determinant of systemic exposure and drug–drug interaction potential.
 
-The herein presented model building and evaluation report evaluates the performance of the PBPK model for COMPOUND in (healthy) adults.
+The presented whole-body PBPK model is based on the model developed by Moj et al. (Moj 2019) and includes dabigatran, its prodrug dabigatran etexilate and the active metabolite dabigatran acylglucuronide. It was established to be used for DDI predictions as dabigatran etexilate is a widely used Pgp substrate in clinical DDI studies.  
 
-The presented COMPOUND PBPK model as well as the respective evaluation plan and evaluation report are provided open-source ([https://github.com/Open-Systems-Pharmacology/COMPOUND-Model](https://github.com/Open-Systems-Pharmacology/COMPOUND-Model)).
+The herein presented model building and evaluation report evaluates the performance of the PBPK model for dabigatran in healthy adults.
 
+The presented dabigatran PBPK model as well as the respective evaluation plan and evaluation report are provided open-source ([https://github.com/Open-Systems-Pharmacology/Dabigatran-Model](https://github.com/Open-Systems-Pharmacology/Dabigatran-Model)). The DDI performance is documented in the DDI qualification report ([https://github.com/Open-Systems-Pharmacology/COMPOUND-Model](https://github.com/Open-Systems-Pharmacology/COMPOUND-Model)). 
 
-
-Alfentanil is a potent analgesic synthetic opioid. It is fast but short-acting and used for anesthesia during surgery. Alfentanil is metabolized solely by CYP3A4 (Phimmasone 2001). Like midazolam, alfentanil is not a substrate for P-gp (Wandel 2002) and less than 1% of an alfentanil dose is excreted unchanged in urine (Meuldermans 1988).
-
-Although in clinical use alfentanil is always administered intravenously (iv), some DDI studies published plasma concentration-time profiles of alfentanil following oral ingestion. The presented alfentanil model was established using clinical PK data of 8 publications, covering iv and oral (po) administration and a dosing range from 0.015 to 0.075 mg/kg as well as absolute doses of 1 mg iv and 4 mg po. The established model is based on the model developed by Hanke et al. (Hanke 2018) and applies metabolism by CYP3A4 and glomerular filtration.
