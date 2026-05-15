@@ -314,6 +314,12 @@
       "Type": "Compound",
       "Name": "Dabigatran",
       "SectionReference": "Parameters"
+    },
+    {
+      "Project": "Dabigatran",
+      "Type": "Formulation",
+      "Name": "DabiEtex_Capsule",
+      "SectionReference": "Parameters"
     }
   ],
   "Sections": [
@@ -330,39 +336,39 @@
         {
           "Reference": "Strategy",
           "Title": "Modeling Strategy",
-          "Content": null
+          "Content": "Content/Section2.1_Modeling_Strategy.md"
         },
         {
           "Reference": "Data",
           "Title": "Data",
-          "Content": null
+          "Content": "Content/Section2.2_Data.md"
         },
         {
           "Reference": "Assumptions",
           "Title": "Model Parameters and Assumptions",
-          "Content": null
+          "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
         }
       ]
     },
     {
       "Reference": "Results",
       "Title": "Results and Discussion",
-      "Content": null,
+      "Content": "Content/Section3_Results_and_Discussion.md",
       "Sections": [
         {
           "Reference": "Parameters",
           "Title": "Final input parameters",
-          "Content": null
+          "Content": "Content/Input_table.md"
         },
         {
           "Reference": "Plots",
           "Title": "Diagnostic Plots",
-          "Content": null
+          "Content": "Content/GOF_diagnostics.md"
         },
         {
           "Reference": "Profiles",
           "Title": "Concentration-Time Profiles",
-          "Content": null,
+          "Content": "Content/Concentration_time_profiles.md",
           "Sections": [
             {
               "Reference": "Training",
@@ -381,12 +387,12 @@
     {
       "Reference": "Conclusion",
       "Title": "Conclusion",
-      "Content": null
+      "Content": "Content/Conclusion.md"
     },
     {
       "Reference": "References",
       "Title": "References",
-      "Content": null
+      "Content": "Content/References.md"
     }
   ],
   "Intro": [
