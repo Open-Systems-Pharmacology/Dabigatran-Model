@@ -1,7 +1,8 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
-The model parameters `Specific intestinal permeability` and `Specific organ permeability` were set to calculated for all three compounds in the model. Instead, `Lipophilicity` was optimized to best match clinical data (see Section 2.3.4). Parameter optimizations were informed by clinical dabigatran etexilate, dabigatran and total dabigatran (sum of dabigatran + dabigatran glucuronide) plasma concentration data. 
-The dissolution of capsules was implemented via an empirical Weibull function with the Weibull parameters from the original model by Moj et al..
+The model parameters `Specific intestinal permeability` and `Specific organ permeability` were set to calculated for all three compounds in the model. Instead, `Lipophilicity` was optimized to best match clinical data (see Section 2.3.4). Parameter optimizations of logP values (iv first, then oral) were informed by clinical dabigatran etexilate, dabigatran and total dabigatran (sum of dabigatran + dabigatran glucuronide) plasma concentration data. Parameter optimization of Pgp kcat value was informed by addition of the Rifampicin-Dabigatran Pgp-induction DDI study data. 
+
+The dissolution of capsules was implemented via an empirical Weibull function using the Weibull parameters from the original model by [Moj et al. 2019](#main-references). 
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
