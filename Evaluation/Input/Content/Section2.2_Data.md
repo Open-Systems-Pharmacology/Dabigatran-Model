@@ -7,7 +7,7 @@ A literature search was performed to collect available information on physicoche
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    | 627.73          | [Moj 2019](#main-references)               | Molecular weight                                |
 | pK<sub>a</sub>  |          | 4.0, 6.7          | [Moj 2019](#main-references)         | Acid dissociation constant                      |
-| Solubility (pH) | mg/mL         | 1.8          | [Moj 2019](#main-references)               | Aqueous Solubility, FaSSIF, ...                 |
+| Solubility (pH) | mg/mL         | 1.8          | [Moj 2019](#main-references)               | Aqueous Solubility                |
 | logP            |          | 3.8          | [Moj 2019](#main-references) (experimental) | Partition coefficient between octanol and water |
 | fu              | %        | 7          | [Moj 2019](#main-references)                | Fraction unbound in plasma                      |
 
@@ -16,7 +16,7 @@ A literature search was performed to collect available information on physicoche
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    | 471.51          | [Moj 2019](#main-references)               | Molecular weight                                |
 | pK<sub>a</sub>  |          | 4.1, 4.4, 12.4           | [Moj 2019](#main-references)         | Acid dissociation constant                      |
-| Solubility (pH) | mg/mL         | 0.017          | [Moj 2019](#main-references)               | Aqueous Solubility, FaSSIF, ...                 |
+| Solubility (pH) | mg/mL         | 0.017          | [Moj 2019](#main-references)               | Aqueous Solubility                 |
 | logP            |          | -2.2          | [Moj 2019](#main-references) (experimental) | Partition coefficient between octanol and water |
 | fu              | %        | 65          | [Moj 2019](#main-references)                | Fraction unbound in plasma                      |
 | B/P ratio       |          | 0.67          | [Moj 2019](#main-references)                | Blood to plasma ratio                           |
