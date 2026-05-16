@@ -2,7 +2,7 @@ Dabigatran is an oral direct thrombin inhibitor administered as a pharmacologica
 
 In addition to renal clearance, dabigatran undergoes glucuronidation, forming dabigatran acylglucuronide, which contributes to total active exposure. Therefore, often the sum of dabigatran + dabigatran glucuronide = "total dabigatran" is quantified and reported. Absorption of the prodrug dabigatran etexilate is strongly influenced by P-glycoprotein (P-gp), making transporter activity a key determinant of systemic dabigatran exposure and drug–drug interaction potential.
 
-The presented whole-body PBPK model is based on the model developed by ([Moj et al. 2019](#main-references)) and includes dabigatran, its prodrug dabigatran etexilate and the pharmacologically active metabolite dabigatran acylglucuronide. It was established to be used for DDI predictions as dabigatran etexilate is a widely used Pgp substrate in clinical DDI studies.  
+The presented whole-body PBPK model is based on the model developed by [Moj et al. 2019](#main-references) and includes dabigatran, its prodrug dabigatran etexilate and the pharmacologically active metabolite dabigatran acylglucuronide. It was established to be used for DDI predictions as dabigatran etexilate is a widely used Pgp substrate in clinical DDI studies.  
 
 The herein presented model building and evaluation report evaluates the performance of the PBPK model for dabigatran in healthy adults.
 
