@@ -2,7 +2,7 @@
 
 A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
 
-## Dabigatran etexilate 
+### Dabigatran etexilate 
 | **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    | 627.73          | [Moj 2019](#main-references)               | Molecular weight                                |
@@ -11,7 +11,7 @@ A literature search was performed to collect available information on physicoche
 | logP            |          | 3.8          | [Zhao 2014](#main-references) | Partition coefficient between octanol and water |
 | fu              | %        | 7          | [Moj 2019](#main-references)                | Fraction unbound in plasma                      |
 
-## Dabigatran  
+### Dabigatran  
 | **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    | 471.51          | [Moj 2019](#main-references)               | Molecular weight                                |
@@ -21,7 +21,7 @@ A literature search was performed to collect available information on physicoche
 | fu              | %        | 65          | [Moj 2019](#main-references)                | Fraction unbound in plasma                      |
 | B/P ratio       |          | 0.67          | [Moj 2019](#main-references)                | Blood to plasma ratio                           |
 
-## Dabigatran glucuronide 
+### Dabigatran glucuronide 
 | **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    | 647.23          | [Moj 2019](#main-references)               | Molecular weight                                |
