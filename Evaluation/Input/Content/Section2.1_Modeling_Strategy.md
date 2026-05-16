@@ -14,7 +14,7 @@ While the original model considered data of 2 different clinical DDI studies (ri
 
 Unknown parameters were identified using the PK‑Sim® Parameter Identification module. Model evaluation included comparison of predicted versus observed concentration–time profiles, goodness-of-fit plots, and geometric mean fold error (GMFE) analysis.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in  [Section 2.2](#methods-data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#methods-data).
 
-Details about the structural model and its parameters can be found in  [Section 2.3](#model-parameters-and-assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#model-parameters-and-assumptions).
 
