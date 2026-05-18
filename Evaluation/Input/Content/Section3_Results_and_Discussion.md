@@ -1,5 +1,5 @@
 The PBPK model for dabigatran was developed and verified using clinical pharmacokinetic data from studies listed in [Section 2.2.2](#clinical-data). 
-Furthermore, 9 different Pgp-DDI studies were used to qualify the model for its application as Pgp substrate for DDI predictions (please see XXX). 
+Furthermore, 9 different Pgp-DDI studies were used to qualify the model for its application as Pgp substrate for DDI predictions (please see the DDI qualification report ([https://github.com/Open-Systems-Pharmacology/COMPOUND-Model](https://github.com/Open-Systems-Pharmacology/COMPOUND-Model)). 
 
 The model was evaluated covering data from studies including in particular
 
