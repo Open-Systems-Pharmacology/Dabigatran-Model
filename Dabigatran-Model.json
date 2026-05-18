@@ -2133,27 +2133,6 @@
           ]
         }
       ],
-      "IntestinalPermeability": [
-        {
-          "Name": "Fit",
-          "Parameters": [
-            {
-              "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 1.85E-07,
-              "Unit": "cm/min",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "FIT",
-          "IsDefault": false
-        }
-      ],
       "PkaTypes": [
         {
           "Type": "Base",
@@ -2301,24 +2280,6 @@
           ]
         }
       ],
-      "Permeability": [
-        {
-          "Name": "FIT",
-          "IsDefault": false,
-          "Parameters": [
-            {
-              "Name": "Permeability",
-              "Value": 4.6547688496E-06,
-              "Unit": "dm/min",
-              "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Method": "ParameterIdentification",
-                "Description": "Value updated from '#1 update' on 2025-08-14 16:39"
-              }
-            }
-          ]
-        }
-      ],
       "PkaTypes": [
         {
           "Type": "Base",
@@ -2422,12 +2383,6 @@
               "Value": 7.0
             }
           ]
-        }
-      ],
-      "Permeability": [
-        {
-          "Name": "FIT",
-          "IsDefault": false
         }
       ],
       "PkaTypes": [
@@ -3090,11 +3045,11 @@
       "ApplicationType": "Intravenous",
       "DosingInterval": "Single",
       "Parameters": [
-       {
+        {
           "Name": "InputDose",
           "Value": 1.0,
           "Unit": "mg"
-        },
+        },        
         {
           "Name": "Infusion time",
           "Value": 30.0,
@@ -3882,2264 +3837,6 @@
   ],
   "Simulations": [
     {
-      "Name": "1160-0061 - 110+150 mg BID",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0061_150_D953_Mean",
-        "1160-0061_110_SUM_Mean",
-        "1160-0061_150_SUM_Mean",
-        "1160-0061_110_D953_Mean",
-        "1160-0061_150_D1048_Mean",
-        "1160-0061_110_D1048_Mean"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 570.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_10|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_11|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_12|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_13|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_14|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_15|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_16|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_17|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_18|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_19|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_20|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_21|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_22|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_23|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_24|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_25|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_26|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0061_110+150mg|DabiEtex_Capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0061_110_D953_Mean"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0061_110_D953_Mean"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0061_110_D1048_Mean"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0061_150_D1048_Mean"
-        }
-      ],
-      "Individual": "1160-0061",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "0061_110+150mg",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "DabiEtex-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "1160-0061_150_D953_Mean-Dabigatran-Peripheral Venous Blood-Plasma-Mean",
-              "X": "1160-0061_150_D953_Mean|Time",
-              "Y": "1160-0061_150_D953_Mean|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Mean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 32,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 6
-              }
-            },
-            {
-              "Name": "1160-0061_110_SUM_Mean-SUM-Measurement",
-              "X": "1160-0061_110_SUM_Mean|Time",
-              "Y": "1160-0061_110_SUM_Mean|ObservedData|||SUM|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0061_150_SUM_Mean-Measurement",
-              "X": "1160-0061_150_SUM_Mean|Time",
-              "Y": "1160-0061_150_SUM_Mean|ObservedData||||Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0061_150_D1048_MEAN-DabiEtex-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0061_150_D1048_Mean|Time",
-              "Y": "1160-0061_150_D1048_Mean|ObservedData|Peripheral Venous Blood|Plasma|DabiEtex|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 34,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0061_110_D1048_MEAN-DabiEtex-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0061_110_D1048_Mean|Time",
-              "Y": "1160-0061_110_D1048_Mean|ObservedData|Peripheral Venous Blood|Plasma|DabiEtex|Measurement",
-              "CurveOptions": {
-                "Color": "#FF0000",
-                "LegendIndex": 33,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0061_110_D953_Mean-Dabigatran-Peripheral Venous Blood-Plasma-Mean",
-              "X": "1160-0061_110_D953_Mean|Time",
-              "Y": "1160-0061_110_D953_Mean|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Mean",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 31,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "1160-0061 - Dabigatran 110+150 mg BID - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\n1160.0061_update\n2026-05-11 13:21"
-        }
-      ]
-    },
-    {
-      "Name": "1160-0194 - 150 mg Capsule",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0194_Capsule_DAB_Mean",
-        "1160-0194_Capsule_SUM_Mean"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
-      ],
-      "Individual": "1160-0194",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "0194_150mg",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 200.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0194 - 150 mg Capsule|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "1160_0194_CapsuleR_DAB_Mean-Dabigatran-Measurement",
-              "X": "1160-0194_Capsule_DAB_Mean|Time",
-              "Y": "1160-0194_Capsule_DAB_Mean|ObservedData|||Dabigatran|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160_0194_CapsuleR_SUM_Mean-Measurement",
-              "X": "1160-0194_Capsule_SUM_Mean|Time",
-              "Y": "1160-0194_Capsule_SUM_Mean|ObservedData||||Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0194 - 150 mg Capsule|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 7
-              }
-            }
-          ],
-          "Name": "1160-0194 - Dabigatran 150 mg Capsule - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": false,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\n1160-0194 - 150 mg BID capsule\n2026-05-11 13:52"
-        }
-      ]
-    },
-    {
-      "Name": "1160-0194 - 150 mg Solution",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0194_Solution_DAB_Mean",
-        "1160-0194_Solution_SUM_Mean"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 72.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Applications|0194_150mg|DabiEtex_Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
-      ],
-      "Individual": "1160-0194",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "0194_150mg",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 200.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0194 - 150 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "1160_0194_SolutionT2_DAB_Mean-Dabigatran-Measurement",
-              "X": "1160-0194_Solution_DAB_Mean|Time",
-              "Y": "1160-0194_Solution_DAB_Mean|ObservedData|||Dabigatran|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160_0194_SolutionT2_SUM_Mean-SUM-Measurement",
-              "X": "1160-0194_Solution_SUM_Mean|Time",
-              "Y": "1160-0194_Solution_SUM_Mean|ObservedData|||SUM|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 5,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0194 - 150 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 7
-              }
-            }
-          ],
-          "Name": "1160-0194 - Dabigatran 150 mg Solution - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": false,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\n1160-0194 - 150 mg BID solution\n2026-05-11 13:51"
-        }
-      ]
-    },
-    {
-      "Name": "Blech 2008 - 200 mg Solution",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0001_Mean_953_200mg",
-        "Blech 2008_200mg_po_Dabigatran_urine",
-        "Blech 2008_200mg_po_DabiGluc_urine"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 50.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|0001_200mg|DabiEtex_Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine po",
-        "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine po"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0001_Mean_953_200mg"
-        }
-      ],
-      "Individual": "Blech 2008",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "0001_200mg",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "FeToUrine"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1.0,
-              "Max": 124.75,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 100.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Blech 2008_200mg_po_DabiGluc_urine-DabiGluc-Measurement",
-              "X": "Blech 2008_200mg_po_DabiGluc_urine|Time",
-              "Y": "Blech 2008_200mg_po_DabiGluc_urine|ObservedData|||DabiGluc|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine po",
-              "X": "Time",
-              "Y": "Blech 2008 - 200 mg Solution|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine po",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 12,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "1160.0001.MEAN_CONC_TIME_953_200mg-Dabigatran-Peripheral Venous Blood-Plasma-Column1",
-              "X": "1160-0001_Mean_953_200mg|0",
-              "Y": "1160-0001_Mean_953_200mg|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Column1",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine po",
-              "X": "Time",
-              "Y": "Blech 2008 - 200 mg Solution|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine po",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 9,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Urinary_Excretion_48h_Dabi-Dabigatran-Measurement",
-              "X": "Blech 2008_200mg_po_Dabigatran_urine|Time",
-              "Y": "Blech 2008_200mg_po_Dabigatran_urine|ObservedData|||Dabigatran|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Blech 2008 - Dabigatran 200 mg Solution - log",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\nBlech 2008, _URINE\n2026-05-12 11:14"
-        }
-      ]
-    },
-    {
-      "Name": "Delavenne 2012 - DDI Control",
-      "Model": "4Comp",
-      "ObservedData": [
-        "Delavenne 2012_Clari-Dabi_Control"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 50.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 2.0,
-          "Unit": "ml/kg",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Applications|Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 2.0,
-          "Unit": "ml/kg",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Delavenne 2012_Clari-Dabi_Control"
-        }
-      ],
-      "Individual": "Delavenne 2012_DDI Clarithromycin",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.5,
-              "Max": 48.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 20.0,
-              "Max": 400.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "DAB-CLR_Dabi_alone-Dabigatran-Peripheral Venous Blood-Plasma-Conc ",
-              "X": "Delavenne 2012_Clari-Dabi_Control|Time ",
-              "Y": "Delavenne 2012_Clari-Dabi_Control|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Conc ",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "Delavenne 2012 - Dabigatran DDI Control - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\nDelavenne 2012 - DDI Control\n2026-05-12 11:44"
-        }
-      ]
-    },
-    {
-      "Name": "1160-0074 - DDI Control",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0074_Vera-Dabi_Control_Dabigatran",
-        "1160-0074_Vera-Dabi_Control_SUM"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 36.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h"
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Verapamil DDI - Dabigatran|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "1160-0074 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0074_Vera-Dabi_Control_Dabigatran"
-        }
-      ],
-      "Individual": "1160-0074_DDI Verapamil",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Verapamil DDI - Dabigatran",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 200.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "1160-0074_Vera-Dabi_Control_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0074_Vera-Dabi_Control_SUM|Time",
-              "Y": "1160-0074_Vera-Dabi_Control_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0074 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0074 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 7
-              }
-            },
-            {
-              "Name": "1160-0074_Vera-Dabi_Control_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0074_Vera-Dabi_Control_Dabigatran|Time",
-              "Y": "1160-0074_Vera-Dabi_Control_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "1160-0074 - Dabigatran DDI Control - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\n1160-0074 - DDI Control\n2026-05-11 13:19"
-        }
-      ]
-    },
-    {
-      "Name": "1160-0082 - DDI Control",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0082_Clari-Dabi_Control_SUM",
-        "1160-0082_Clari-Dabi_Control_Dabigatran"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 175.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|Clarithromycin DDI - Dabigatran (121h)|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "1160-0082 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0082_Clari-Dabi_Control_Dabigatran"
-        }
-      ],
-      "Individual": "1160-0082_DDI Clarithromycin",
-      "Compounds": [
-        {
-          "Name": "DabiEtex",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "Name": "CES1-FIT",
-              "MoleculeName": "CES1",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "Name": "CES2-FIT",
-              "MoleculeName": "CES2",
-              "MetaboliteName": "Dabigatran"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "ABCB1-FIT",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-DabiEtex",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Clarithromycin DDI - Dabigatran (121h)",
-            "Formulations": [
-              {
-                "Name": "DabiEtex_Capsule",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 115.0,
-              "Max": 175.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 100.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0082 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "1160-0082_Clari-Dabi_Control_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0082_Clari-Dabi_Control_SUM|Time",
-              "Y": "1160-0082_Clari-Dabi_Control_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0082_Clari-Dabi_Control_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0082_Clari-Dabi_Control_Dabigatran|Time",
-              "Y": "1160-0082_Clari-Dabi_Control_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0082 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 6
-              }
-            }
-          ],
-          "Name": "1160-0082 - Dabigatran DDI Control - lin",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\n1160.0082 - DDI Control\n2026-05-10 12:04"
-        }
-      ]
-    },
-    {
       "Name": "1160-0005 - 0.1 mg iv",
       "Model": "4Comp",
       "ObservedData": [
@@ -6177,47 +3874,21 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|0005_iv_0.1mg|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min"
-        },
-        {
           "Path": "Dabigatran|Blood/Plasma concentration ratio",
           "Value": 0.67
+        },
+        {
+          "Path": "Events|0005_iv_0.1mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM",
         "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
         "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_0.1_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 0.1 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_0.1_iv_Dabigatran_urine"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_0.1_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 0.1 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_0.1_iv_Dabigatran_urine"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 0.1 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-          "ObservedData": "1160-0005_0.1_iv_SUM"
-        }
       ],
       "Individual": "1160-0005_0.1 mg iv",
       "Compounds": [
@@ -6226,12 +3897,6 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
           ],
           "Processes": [
             {
@@ -6268,12 +3933,6 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
           ],
           "Processes": [
             {
@@ -6427,328 +4086,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model_V12\n1160-0005 - 0.1 mg iv\n2026-05-10 11:47"
-        }
-      ]
-    },
-    {
-      "Name": "1160-0005 - 5.0 mg iv",
-      "Model": "4Comp",
-      "ObservedData": [
-        "1160-0005_5.0_iv_Dabigatran",
-        "1160-0005_5.0_iv_SUM",
-        "1160-0005_5.0_iv_Dabigatran_urine",
-        "1160-0005_5.0_iv_DabiGluc_urine"
-      ],
-      "Solver": {},
-      "OutputSchema": [
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 50.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        }
-      ],
-      "Parameters": [
-        {
-          "Path": "Applications|0005_iv_5.0mg|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min"
-        },
-        {
-          "Path": "Dabigatran|Blood/Plasma concentration ratio",
-          "Value": 0.67
-        }
-      ],
-      "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Dabigatran|SUM",
-        "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-        "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-          "ObservedData": "1160-0005_5.0_iv_SUM"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine",
-          "Weights": [
-            3.0
-          ]
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-          "ObservedData": "1160-0005_5.0_iv_SUM"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_5.0_iv_Dabigatran_urine",
-          "Weights": [
-            3.0
-          ]
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_5.0_iv_DabiGluc_urine"
-        }
-      ],
-      "Individual": "1160-0005_5.0 mg iv",
-      "Compounds": [
-        {
-          "Name": "Dabigatran",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "Name": "UGT2B15-FIT",
-              "MoleculeName": "UGT2B15",
-              "MetaboliteName": "DabiGluc"
-            },
-            {
-              "Name": "Glomerular Filtration-Dabi",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "0005_iv_5.0mg"
-          }
-        },
-        {
-          "Name": "DabiGluc",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "Glomerular Filtration-DabiGluc",
-              "SystemicProcessType": "GFR"
-            }
-          ]
-        }
-      ],
-      "ObserverSets": [
-        {
-          "Name": "SUM"
-        },
-        {
-          "Name": "FeToUrine_iv"
-        }
-      ],
-      "HasResults": true,
-      "IndividualAnalyses": [
-        {
-          "Axes": [
-            {
-              "Unit": "h",
-              "Dimension": "Time",
-              "Type": "X",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "None",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "ng/ml",
-              "Dimension": "Concentration (molar)",
-              "Type": "Y",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 1.0,
-              "Max": 307.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "%",
-              "Dimension": "Fraction",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "Min": 0.0,
-              "Max": 100.0,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
-            }
-          ],
-          "Curves": [
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
-              "X": "Time",
-              "Y": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 4
-              }
-            },
-            {
-              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
-              "X": "Time",
-              "Y": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 2
-              }
-            },
-            {
-              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
-              "X": "Time",
-              "Y": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 8,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
-              "X": "Time",
-              "Y": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 7,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "1160-0005_5.0_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0005_5.0_iv_Dabigatran|Time",
-              "Y": "1160-0005_5.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
-              "CurveOptions": {
-                "Color": "#0000FF",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0005_5.0_iv_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
-              "X": "1160-0005_5.0_iv_SUM|Time",
-              "Y": "1160-0005_5.0_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
-              "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0005_5.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
-              "X": "1160-0005_5.0_iv_Dabigatran_urine|Time",
-              "Y": "1160-0005_5.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "1160-0005_5.0_iv_DabiGluc_urine-DabiGluc-Kidney-Urine-Measurement",
-              "X": "1160-0005_5.0_iv_DabiGluc_urine|Time",
-              "Y": "1160-0005_5.0_iv_DabiGluc_urine|ObservedData|Kidney|Urine|DabiGluc|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 12,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            }
-          ],
-          "Name": "1160-0005 - Dabigatran iv 5.0 mg - log",
-          "FontAndSize": {
-            "Fonts": {
-              "AxisSize": 10,
-              "LegendSize": 8,
-              "TitleSize": 16,
-              "DescriptionSize": 12,
-              "OriginSize": 8,
-              "FontFamilyName": "Microsoft Sans Serif",
-              "WatermarkSize": 32
-            }
-          },
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
-          "OriginText": "Dabigatran-Model_V12\n1160-0005 - 5.0 mg iv\n2026-05-10 11:49"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 0.1 mg iv\n2026-05-18 07:46"
         }
       ]
     },
@@ -6791,42 +4129,21 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|0005_iv_1.0mg|Application_1|ProtocolSchemaItem|Infusion time",
-          "Value": 30.0,
-          "Unit": "min"
-        },
-        {
           "Path": "Dabigatran|Blood/Plasma concentration ratio",
           "Value": 0.67
+        },
+        {
+          "Path": "Events|0005_iv_1.0mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
         }
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM",
         "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
         "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "1160-0005_1.0_iv_Dabigatran"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_1.0_iv_Dabigatran_urine"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "1160-0005 - 1.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
-          "ObservedData": "1160-0005_1.0_iv_DabiGluc_urine"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "1160-0005 - 1.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
-          "ObservedData": "1160-0005_1.0_iv_SUM"
-        }
       ],
       "Individual": "1160-0005_1.0 mg iv",
       "Compounds": [
@@ -6835,12 +4152,6 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
           ],
           "Processes": [
             {
@@ -6877,12 +4188,6 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
           ],
           "Processes": [
             {
@@ -7048,7 +4353,2268 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model_V12\n1160-0005 - 1.0 mg iv\n2026-05-10 11:48"
+          "OriginText": "Dabigatran-Model\n1160-0005 - 1.0 mg iv\n2026-05-18 07:46"
+        }
+      ]
+    },
+    {
+      "Name": "1160-0005 - 5.0 mg iv",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0005_5.0_iv_Dabigatran",
+        "1160-0005_5.0_iv_SUM",
+        "1160-0005_5.0_iv_Dabigatran_urine",
+        "1160-0005_5.0_iv_DabiGluc_urine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67
+        },
+        {
+          "Path": "Events|0005_iv_5.0mg|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 30.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM",
+        "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+        "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv"
+      ],
+      "Individual": "1160-0005_5.0 mg iv",
+      "Compounds": [
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0005_iv_5.0mg"
+          }
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        },
+        {
+          "Name": "FeToUrine_iv"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 307.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 4
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine iv",
+              "X": "Time",
+              "Y": "1160-0005 - 5.0 mg iv|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine iv",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 7,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_5.0_iv_Dabigatran|Time",
+              "Y": "1160-0005_5.0_iv_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0005_5.0_iv_SUM|Time",
+              "Y": "1160-0005_5.0_iv_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_Dabigatran_urine-Dabigatran-Kidney-Urine-Measurement",
+              "X": "1160-0005_5.0_iv_Dabigatran_urine|Time",
+              "Y": "1160-0005_5.0_iv_Dabigatran_urine|ObservedData|Kidney|Urine|Dabigatran|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0005_5.0_iv_DabiGluc_urine-DabiGluc-Kidney-Urine-Measurement",
+              "X": "1160-0005_5.0_iv_DabiGluc_urine|Time",
+              "Y": "1160-0005_5.0_iv_DabiGluc_urine|ObservedData|Kidney|Urine|DabiGluc|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "1160-0005 - Dabigatran iv 5.0 mg - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0005 - 5.0 mg iv\n2026-05-18 07:47"
+        }
+      ]
+    },
+    {
+      "Name": "1160-0061 - 110+150 mg BID",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0061_150_D953_Mean",
+        "1160-0061_110_SUM_Mean",
+        "1160-0061_150_SUM_Mean",
+        "1160-0061_110_D953_Mean",
+        "1160-0061_150_D1048_Mean",
+        "1160-0061_110_D1048_Mean"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 570.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0061_110+150mg|DabiEtex_Capsule|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "1160-0061",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0061_110+150mg",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "DabiEtex-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "1160-0061_150_D953_Mean-Dabigatran-Peripheral Venous Blood-Plasma-Mean",
+              "X": "1160-0061_150_D953_Mean|Time",
+              "Y": "1160-0061_150_D953_Mean|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Mean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 32,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0061 - 110+150 mg BID|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "1160-0061_110_SUM_Mean-SUM-Measurement",
+              "X": "1160-0061_110_SUM_Mean|Time",
+              "Y": "1160-0061_110_SUM_Mean|ObservedData|||SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0061_150_SUM_Mean-Measurement",
+              "X": "1160-0061_150_SUM_Mean|Time",
+              "Y": "1160-0061_150_SUM_Mean|ObservedData||||Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0061_150_D1048_MEAN-DabiEtex-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0061_150_D1048_Mean|Time",
+              "Y": "1160-0061_150_D1048_Mean|ObservedData|Peripheral Venous Blood|Plasma|DabiEtex|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 34,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0061_110_D1048_MEAN-DabiEtex-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0061_110_D1048_Mean|Time",
+              "Y": "1160-0061_110_D1048_Mean|ObservedData|Peripheral Venous Blood|Plasma|DabiEtex|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 33,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0061_110_D953_Mean-Dabigatran-Peripheral Venous Blood-Plasma-Mean",
+              "X": "1160-0061_110_D953_Mean|Time",
+              "Y": "1160-0061_110_D953_Mean|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Mean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 31,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "1160-0061 - Dabigatran 110+150 mg BID - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0061 - 110+150 mg BID\n2026-05-18 10:31"
+        }
+      ]
+    },
+    {
+      "Name": "1160-0074 - DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0074_Vera-Dabi_Control_Dabigatran",
+        "1160-0074_Vera-Dabi_Control_SUM"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 36.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67
+        },
+        {
+          "Path": "Events|Verapamil DDI - Dabigatran|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "1160-0074_DDI Verapamil",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Verapamil DDI - Dabigatran",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 200.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "1160-0074_Vera-Dabi_Control_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0074_Vera-Dabi_Control_SUM|Time",
+              "Y": "1160-0074_Vera-Dabi_Control_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0074 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0074 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7
+              }
+            },
+            {
+              "Name": "1160-0074_Vera-Dabi_Control_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0074_Vera-Dabi_Control_Dabigatran|Time",
+              "Y": "1160-0074_Vera-Dabi_Control_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "1160-0074 - Dabigatran DDI Control - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0074 - DDI Control\n2026-05-18 11:06"
+        }
+      ]
+    },
+    {
+      "Name": "1160-0082 - DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0082_Clari-Dabi_Control_SUM",
+        "1160-0082_Clari-Dabi_Control_Dabigatran"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 175.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Clarithromycin DDI - Dabigatran (121h)|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "1160-0082_DDI Clarithromycin",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Clarithromycin DDI - Dabigatran (121h)",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 115.0,
+              "Max": 175.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0082 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "1160-0082_Clari-Dabi_Control_SUM-SUM-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0082_Clari-Dabi_Control_SUM|Time",
+              "Y": "1160-0082_Clari-Dabi_Control_SUM|ObservedData|Peripheral Venous Blood|Plasma|SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160-0082_Clari-Dabi_Control_Dabigatran-Dabigatran-Peripheral Venous Blood-Plasma-Measurement",
+              "X": "1160-0082_Clari-Dabi_Control_Dabigatran|Time",
+              "Y": "1160-0082_Clari-Dabi_Control_Dabigatran|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0082 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 6
+              }
+            }
+          ],
+          "Name": "1160-0082 - Dabigatran DDI Control - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0082 - DDI Control\n2026-05-18 11:07"
+        }
+      ]
+    },
+    {
+      "Name": "1160-0194 - 150 mg Capsule",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0194_Capsule_DAB_Mean",
+        "1160-0194_Capsule_SUM_Mean"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 72.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "1160-0194",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0194_150mg",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 200.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0194 - 150 mg Capsule|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "1160_0194_CapsuleR_DAB_Mean-Dabigatran-Measurement",
+              "X": "1160-0194_Capsule_DAB_Mean|Time",
+              "Y": "1160-0194_Capsule_DAB_Mean|ObservedData|||Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160_0194_CapsuleR_SUM_Mean-Measurement",
+              "X": "1160-0194_Capsule_SUM_Mean|Time",
+              "Y": "1160-0194_Capsule_SUM_Mean|ObservedData||||Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0194 - 150 mg Capsule|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7
+              }
+            }
+          ],
+          "Name": "1160-0194 - Dabigatran 150 mg Capsule - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0194 - 150 mg Capsule\n2026-05-18 11:12"
+        }
+      ]
+    },
+    {
+      "Name": "1160-0194 - 150 mg Solution",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0194_Solution_DAB_Mean",
+        "1160-0194_Solution_SUM_Mean"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 72.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Solution|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Solution|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Solution|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Events|0194_150mg|DabiEtex_Solution|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|SUM"
+      ],
+      "Individual": "1160-0194",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0194_150mg",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "SUM"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 200.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "1160-0194 - 150 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "1160_0194_SolutionT2_DAB_Mean-Dabigatran-Measurement",
+              "X": "1160-0194_Solution_DAB_Mean|Time",
+              "Y": "1160-0194_Solution_DAB_Mean|ObservedData|||Dabigatran|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "1160_0194_SolutionT2_SUM_Mean-SUM-Measurement",
+              "X": "1160-0194_Solution_SUM_Mean|Time",
+              "Y": "1160-0194_Solution_SUM_Mean|ObservedData|||SUM|Measurement",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-SUM-Concentration",
+              "X": "Time",
+              "Y": "1160-0194 - 150 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|SUM",
+              "CurveOptions": {
+                "Color": "#00C0C0",
+                "LegendIndex": 7
+              }
+            }
+          ],
+          "Name": "1160-0194 - Dabigatran 150 mg Solution - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": false,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\n1160-0194 - 150 mg Solution\n2026-05-18 11:13"
+        }
+      ]
+    },
+    {
+      "Name": "Blech 2008 - 200 mg Solution",
+      "Model": "4Comp",
+      "ObservedData": [
+        "1160-0001_Mean_953_200mg",
+        "Blech 2008_200mg_po_Dabigatran_urine",
+        "Blech 2008_200mg_po_DabiGluc_urine"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67
+        },
+        {
+          "Path": "Events|0001_200mg|DabiEtex_Solution|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|Kidney|Urine|DabiEtex|Fraction excreted to urine po",
+        "Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine po",
+        "Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine po"
+      ],
+      "Individual": "Blech 2008",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "0001_200mg",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "ObserverSets": [
+        {
+          "Name": "FeToUrine"
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.0,
+              "Max": 124.75,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "%",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 100.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Blech 2008_200mg_po_DabiGluc_urine-DabiGluc-Measurement",
+              "X": "Blech 2008_200mg_po_DabiGluc_urine|Time",
+              "Y": "Blech 2008_200mg_po_DabiGluc_urine|ObservedData|||DabiGluc|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Blech 2008 - 200 mg Solution|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "DabiGluc-Kidney-Urine-Fraction excreted to urine po",
+              "X": "Time",
+              "Y": "Blech 2008 - 200 mg Solution|Organism|Kidney|Urine|DabiGluc|Fraction excreted to urine po",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 12,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "1160.0001.MEAN_CONC_TIME_953_200mg-Dabigatran-Peripheral Venous Blood-Plasma-Column1",
+              "X": "1160-0001_Mean_953_200mg|0",
+              "Y": "1160-0001_Mean_953_200mg|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Column1",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Dabigatran-Kidney-Urine-Fraction excreted to urine po",
+              "X": "Time",
+              "Y": "Blech 2008 - 200 mg Solution|Organism|Kidney|Urine|Dabigatran|Fraction excreted to urine po",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 9,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Urinary_Excretion_48h_Dabi-Dabigatran-Measurement",
+              "X": "Blech 2008_200mg_po_Dabigatran_urine|Time",
+              "Y": "Blech 2008_200mg_po_Dabigatran_urine|ObservedData|||Dabigatran|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#ECD33A",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Blech 2008 - Dabigatran 200 mg Solution - log",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\nBlech 2008 - 200 mg Solution\n2026-05-18 11:15"
+        }
+      ]
+    },
+    {
+      "Name": "Delavenne 2012 - DDI Control",
+      "Model": "4Comp",
+      "ObservedData": [
+        "Delavenne 2012_Clari-Dabi_Control"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 50.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 10.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Dabigatran|Blood/Plasma concentration ratio",
+          "Value": 0.67,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)|DabiEtex_Capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 2.0,
+          "Unit": "ml/kg",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Events|Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)|DabiEtex_Capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 2.0,
+          "Unit": "ml/kg",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Delavenne 2012_DDI Clarithromycin",
+      "Compounds": [
+        {
+          "Name": "DabiEtex",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "Name": "CES1-FIT",
+              "MoleculeName": "CES1",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "Name": "CES2-FIT",
+              "MoleculeName": "CES2",
+              "MetaboliteName": "Dabigatran"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "ABCB1-FIT",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-DabiEtex",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Clarithromycin DDI, Delavenne 2012 - Dabigatran (0h)",
+            "Formulations": [
+              {
+                "Name": "DabiEtex_Capsule",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "Dabigatran",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "Name": "UGT2B15-FIT",
+              "MoleculeName": "UGT2B15",
+              "MetaboliteName": "DabiGluc"
+            },
+            {
+              "Name": "Glomerular Filtration-Dabi",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        },
+        {
+          "Name": "DabiGluc",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Processes": [
+            {
+              "Name": "Glomerular Filtration-DabiGluc",
+              "SystemicProcessType": "GFR"
+            }
+          ]
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.5,
+              "Max": 48.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "ng/ml",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 20.0,
+              "Max": 400.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Dabigatran-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Delavenne 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2
+              }
+            },
+            {
+              "Name": "DAB-CLR_Dabi_alone-Dabigatran-Peripheral Venous Blood-Plasma-Conc ",
+              "X": "Delavenne 2012_Clari-Dabi_Control|Time ",
+              "Y": "Delavenne 2012_Clari-Dabi_Control|ObservedData|Peripheral Venous Blood|Plasma|Dabigatran|Conc ",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Delavenne 2012 - Dabigatran DDI Control - lin",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Dabigatran-Model\nDelavenne 2012 - DDI Control\n2026-05-18 11:16"
         }
       ]
     },
@@ -7158,7 +6724,9 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM"
       ],
       "Individual": "Härtter 2012_DDI Rifampicin",
@@ -7224,16 +6792,6 @@
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
           ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            },
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
           "Processes": [
             {
               "MoleculeName": "AADAC"
@@ -7285,12 +6843,6 @@
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
           ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
-          ],
           "Processes": [
             {
               "MoleculeName": "AADAC"
@@ -7323,12 +6875,6 @@
           "CalculationMethods": [
             "Cellular partition coefficient method - Rodgers and Rowland",
             "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Calculated",
-              "GroupName": "COMPOUND_PERMEABILITY"
-            }
           ],
           "Processes": [
             {
@@ -7389,7 +6935,6 @@
               "X": "Time",
               "Y": "Härtter 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
               "CurveOptions": {
-                "Visible": false,
                 "Color": "#00C0C0",
                 "LegendIndex": 11
               }
@@ -7410,7 +6955,6 @@
               "X": "Härtter 2012_Rifa-Dabi_Control_SUM|Time",
               "Y": "Härtter 2012_Rifa-Dabi_Control_SUM|ObservedData||||Measurement",
               "CurveOptions": {
-                "Visible": false,
                 "Color": "#00C0C0",
                 "LegendIndex": 15,
                 "LineStyle": "None",
@@ -7436,7 +6980,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model_V12_clean\nHärtter 2012 - DDI Control\n2026-05-13 13:06"
+          "OriginText": "Dabigatran-Model\nHärtter 2012 - DDI Control\n2026-05-18 11:20"
         }
       ],
       "Interactions": [
