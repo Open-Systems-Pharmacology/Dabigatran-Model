@@ -1,8 +1,8 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
-Absorption of dabigatran etexilate is influenced by intestinal permeability and Pgp transport. For the model parameter `Specific intestinal permeability` the calculated value was used. Parameter optimization of Pgp kcat was informed by addition of clinical Rifampicin-Dabigatran Pgp-induction DDI data to the parameter optimization. 
+Absorption of dabigatran etexilate is influenced by intestinal permeability and Pgp transport. The calculated value was used for `Specific intestinal permeability`. The value for Pgp kcat was estimated, informed by Rifampicin-Dabigatran Pgp-induction DDI data. 
 
-The dissolution of capsules was implemented via an empirical Weibull function using the Weibull parameters from the original model by [Moj et al. 2019](#main-references). 
+The dissolution of capsules was implemented via an empirical Weibull function, using the Weibull parameters from the original model by [Moj et al. 2019](#main-references). 
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
@@ -13,11 +13,11 @@ For the model parameter `Specific organ permeability` the calculated values were
 
 - For dabigatran etexilate the final model includes transport by Pgp, prodrug ester cleavage by CES1 and CES2 and passive renal filtration (trace amounts excreted in urine following oral administration). 
 - For dabigatran the final model includes glucuronidation by UGT2B15 and renal excretion (70.6-76.2% excreted in urine following intravenous, 4.3% excreted in urine following oral administration). 
-- For dabigatran glucuronide the final model includes renal excretion only, implemented with the GFR fraction parameter values from the original model by [Moj et al. 2019](#main-references). Dabigatran glucuronide in urine is not meaningful in clinical pratice (2.7-6.4% excreted in urine following intravenous, 0.4% excreted in urine following oral administration) and we had very little data to inform its estimation. 
+- For dabigatran glucuronide the final model includes renal excretion only, implemented with the GFR fraction parameter value from the original model by [Moj et al. 2019](#main-references). Dabigatran glucuronide in urine is not meaningful in clinical pratice (2.7-6.4% excreted in urine following intravenous, 0.4% excreted in urine following oral administration) and there is little data to inform the estimation of dabigatran glucuronide GFR fraction. 
 
 ### Automated Parameter Identification <a id="model-parameters-and-assumptions-parameter-identification"></a>
 
-These are the results of sequential the final parameter identifications.
+These are the results of the two final sequential parameter identifications.
 1. iv: 
 
 | Model Parameter      | Optimized Value | Unit |
