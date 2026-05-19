@@ -1,6 +1,6 @@
 ### In vitro / physico-chemical Data <a id="invitro-and-physico-chemical-data"></a>
 
-A literature search was performed to collect available information on physicochemical properties of dapagliflozin. The obtained information from literature is summarized in the table below. 
+A literature search was performed to collect available information on physico-chemical properties of dabigatran etexilate, dabigatran and dabigatran glucuronide. The obtained information from literature is summarized in the table below. 
 
 #### Dabigatran etexilate 
 | **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
@@ -31,7 +31,7 @@ A literature search was performed to collect available information on physicoche
 
 ### Clinical Data  <a id="clinical-data"></a>
 
-A literature search was performed to collect available clinical data on dabigatran in healthy adults.
+A search was performed to collect available clinical data on dabigatran in healthy adults.
 
 #### Model Building <a id="model-building"></a>
 
@@ -50,7 +50,7 @@ The following studies were used for model building (training data):
 
 #### Model Verification <a id="model-verification"></a>
 
-The following studies were used for model verification:
+The following studies were used for model verification (test data):
 
 | Source                      | Arm / Treatment / Information used for model building |
 | :-------------------------- | :---------------------------------------------------- |
