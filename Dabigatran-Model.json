@@ -2216,7 +2216,13 @@
         {
           "InternalName": "GlomerularFiltration",
           "DataSource": "DabiEtex",
-          "Species": "Human"
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.00
+            }
+          ]
         }
       ],
       "CalculationMethods": [
@@ -2296,11 +2302,6 @@
       ],
       "Processes": [
         {
-          "InternalName": "GlomerularFiltration",
-          "DataSource": "Dabi",
-          "Species": "Human"
-        },
-        {
           "InternalName": "MetabolizationLiverMicrosomes_MM",
           "DataSource": "FIT",
           "Molecule": "UGT2B15",
@@ -2315,6 +2316,22 @@
               "Name": "kcat",
               "Value": 4.2993761606,
               "Unit": "1/min",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from '#7 - iv (logP, logP, UGT, GFR)_best iv' on 2025-08-30 15:56"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "GlomerularFiltration",
+          "DataSource": "Dabi",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "GFR fraction",
+              "Value": 1.2278243749,
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
                 "Method": "ParameterIdentification",
