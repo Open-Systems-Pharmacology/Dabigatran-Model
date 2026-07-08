@@ -2150,6 +2150,16 @@
           "Molecule": "ABCB1",
           "Parameters": [
             {
+              "Name": "Transporter concentration",
+              "Value": 1.0,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Vmax",
+              "Value": 0.0,
+              "Unit": "µmol/l/min"
+            },
+            {
               "Name": "Km",
               "Value": 0.08,
               "Unit": "µmol/l"
@@ -2174,6 +2184,11 @@
           "Metabolite": "Dabigatran",
           "Parameters": [
             {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
+            {
               "Name": "Km",
               "Value": 24.9,
               "Unit": "µmol/l"
@@ -2196,6 +2211,11 @@
           "Molecule": "CES2",
           "Metabolite": "Dabigatran",
           "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
             {
               "Name": "Km",
               "Value": 5.5,
@@ -2220,7 +2240,7 @@
           "Parameters": [
             {
               "Name": "GFR fraction",
-              "Value": 1.00
+              "Value": 1.0
             }
           ]
         }
@@ -2307,6 +2327,11 @@
           "Molecule": "UGT2B15",
           "Metabolite": "DabiGluc",
           "Parameters": [
+            {
+              "Name": "In vitro Vmax for liver microsomes",
+              "Value": 0.0,
+              "Unit": "pmol/min/mg mic. protein"
+            },
             {
               "Name": "Km",
               "Value": 512.0,
@@ -2597,7 +2622,9 @@
               "Value": 0.6088,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -2627,7 +2654,9 @@
               "Value": 5.21004653,
               "Unit": "1/min",
               "ValueOrigin": {
-                "Source": "Unknown"
+                "Source": "Publication",
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -2651,6 +2680,38 @@
         {
           "InternalName": "CompetitiveInhibition",
           "DataSource": "Kajosaari 2005",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 30.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Kajosaari et al. 2005"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "CYP2C9",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 150.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Yoshida 2012"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Kajosaari 2005",
           "Molecule": "CYP3A4",
           "Parameters": [
             {
@@ -2666,7 +2727,74 @@
         },
         {
           "InternalName": "CompetitiveInhibition",
-          "DataSource": "Reitman 2011",
+          "DataSource": "Hanke 2021",
+          "Molecule": "BCRP",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 14.0,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Prueksaritanont 2014"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP1B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.29,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Bi 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP1B3",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 0.5,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Bi 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
+          "Molecule": "OATP2B1",
+          "Parameters": [
+            {
+              "Name": "Ki",
+              "Value": 78.2,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Method": "InVitro",
+                "Description": "Zhang 2019"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "CompetitiveInhibition",
+          "DataSource": "Hanke 2021",
           "Molecule": "P-gp",
           "Parameters": [
             {
@@ -2674,10 +2802,66 @@
               "Value": 9.1,
               "Unit": "µmol/l",
               "ValueOrigin": {
-                "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Reitman 2011 (IC50 = Ki (169 µM / (1+ (0.1 µM / 177 µM) )"
+                "Source": "Other",
+                "Method": "InVitro",
+                "Description": "NBI"
               }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Chen 2010",
+          "Molecule": "CYP1A2",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.65
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Buckley 2014",
+          "Molecule": "CYP2C8",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l",
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
+              }
+            },
+            {
+              "Name": "Emax",
+              "Value": 3.2,
+              "ValueOrigin": {
+                "Source": "Publication",
+                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
+              }
+            }
+          ]
+        },
+        {
+          "InternalName": "Induction",
+          "DataSource": "Rae 2001",
+          "Molecule": "CYP2E1",
+          "Parameters": [
+            {
+              "Name": "EC50",
+              "Value": 0.34,
+              "Unit": "µmol/l"
+            },
+            {
+              "Name": "Emax",
+              "Value": 0.8
             }
           ]
         },
@@ -2707,8 +2891,8 @@
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Greiner 1999",
-          "Molecule": "P-gp",
+          "DataSource": "Assumed",
+          "Molecule": "AADAC",
           "Parameters": [
             {
               "Name": "EC50",
@@ -2722,11 +2906,11 @@
             },
             {
               "Name": "Emax",
-              "Value": 2.5,
+              "Value": 0.985,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "Assumption",
-                "Description": "Greiner et al. 1999"
+                "Method": "ParameterIdentification",
+                "Description": "Hanke et al. 2018"
               }
             }
           ]
@@ -2759,8 +2943,8 @@
         },
         {
           "InternalName": "Induction",
-          "DataSource": "Assumed",
-          "Molecule": "AADAC",
+          "DataSource": "Greiner 1999",
+          "Molecule": "P-gp",
           "Parameters": [
             {
               "Name": "EC50",
@@ -2774,112 +2958,12 @@
             },
             {
               "Name": "Emax",
-              "Value": 0.985,
+              "Value": 2.5,
               "ValueOrigin": {
                 "Source": "Publication",
-                "Method": "ParameterIdentification",
-                "Description": "Hanke et al. 2018"
+                "Method": "Assumption",
+                "Description": "Greiner et al. 1999"
               }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Kajosaari 2005",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 30.2,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Kajosaari et al. 2005"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Hirano 2006",
-          "Molecule": "OATP1B1",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.477,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Hirano M, Maeda K, Shitara Y, Sugiyama Y. Drug-drug interaction between pitavastatin and various drugs via OATP1B1. Drug Metab Dispos. 2006;34:1229–36"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Buckley 2014",
-          "Molecule": "CYP2C8",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l",
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011;39:1921–9; Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, et al. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008;36:2355–70. "
-              }
-            },
-            {
-              "Name": "Emax",
-              "Value": 3.2,
-              "ValueOrigin": {
-                "Source": "Publication",
-                "Description": "Buckley DB, Wiegand CM, Prentiss PL, Fahmi OA. Time-course of cytochrome P450 (CYP450) induction in cultured human hepatocytes: Evaluation of activity and mRNA expression profiles for six inducible CYP450 enzymes. ISSX. 2013"
-              }
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Chen 2010",
-          "Molecule": "CYP1A2",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.65
-            }
-          ]
-        },
-        {
-          "InternalName": "Induction",
-          "DataSource": "Rae 2001",
-          "Molecule": "CYP2E1",
-          "Parameters": [
-            {
-              "Name": "EC50",
-              "Value": 0.34,
-              "Unit": "µmol/l"
-            },
-            {
-              "Name": "Emax",
-              "Value": 0.8
-            }
-          ]
-        },
-        {
-          "InternalName": "CompetitiveInhibition",
-          "DataSource": "Annaert 2010",
-          "Molecule": "OATP1B3",
-          "Parameters": [
-            {
-              "Name": "Ki",
-              "Value": 0.9,
-              "Unit": "µmol/l"
             }
           ]
         }
@@ -2905,6 +2989,11 @@
         {
           "Name": "Dissolution time (50% dissolved)",
           "Value": 1.0579,
+          "Unit": "min"
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
           "Unit": "min"
         },
         {
@@ -2940,9 +3029,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 110.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -2973,9 +3072,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 150.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3013,9 +3122,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 150.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3046,6 +3165,11 @@
       "DosingInterval": "Single",
       "Parameters": [
         {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
           "Name": "InputDose",
           "Value": 0.1,
           "Unit": "mg"
@@ -3063,10 +3187,15 @@
       "DosingInterval": "Single",
       "Parameters": [
         {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
           "Name": "InputDose",
           "Value": 1.0,
           "Unit": "mg"
-        },        
+        },
         {
           "Name": "Infusion time",
           "Value": 30.0,
@@ -3079,6 +3208,11 @@
       "ApplicationType": "Intravenous",
       "DosingInterval": "Single",
       "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
         {
           "Name": "InputDose",
           "Value": 5.0,
@@ -3097,9 +3231,19 @@
       "DosingInterval": "Single",
       "Parameters": [
         {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
           "Name": "InputDose",
           "Value": 200.0,
           "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
         }
       ]
     },
@@ -3116,9 +3260,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 150.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3149,9 +3303,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 150.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3182,9 +3346,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 150.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3215,9 +3389,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 150.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3255,9 +3439,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3288,9 +3482,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3321,9 +3525,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3354,9 +3568,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3387,9 +3611,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3420,9 +3654,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3453,9 +3697,19 @@
               "FormulationKey": "Formulation",
               "Parameters": [
                 {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
+                {
                   "Name": "InputDose",
                   "Value": 600.0,
                   "Unit": "mg"
+                },
+                {
+                  "Name": "Volume of water/body weight",
+                  "Value": 3.5,
+                  "Unit": "ml/kg"
                 }
               ]
             }
@@ -3492,6 +3746,11 @@
               "ApplicationType": "Oral",
               "FormulationKey": "Formulation",
               "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
                 {
                   "Name": "InputDose",
                   "Value": 300.0,
@@ -3568,6 +3827,11 @@
               "ApplicationType": "Oral",
               "FormulationKey": "Formulation",
               "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": 0.0,
+                  "Unit": "h"
+                },
                 {
                   "Name": "InputDose",
                   "Value": 150.0,
@@ -6740,69 +7004,14 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|DabiEtex|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|DabiGluc|Plasma (Peripheral Venous Blood)",
+        "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
         "Organism|PeripheralVenousBlood|Dabigatran|SUM"
       ],
       "Individual": "Härtter 2012_DDI Rifampicin",
       "Compounds": [
-        {
-          "Name": "Rifampicin",
-          "CalculationMethods": [
-            "Cellular partition coefficient method - Rodgers and Rowland",
-            "Cellular permeability - PK-Sim Standard"
-          ],
-          "Alternatives": [
-            {
-              "AlternativeName": "Optimized",
-              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
-            }
-          ],
-          "Processes": [
-            {
-              "Name": "AADAC-Nakajima 2011",
-              "MoleculeName": "AADAC"
-            },
-            {
-              "MoleculeName": "CYP3A4"
-            },
-            {
-              "MoleculeName": "UGT1A4"
-            },
-            {
-              "MoleculeName": "CES1"
-            },
-            {
-              "MoleculeName": "CES2"
-            },
-            {
-              "MoleculeName": "UGT2B15"
-            },
-            {
-              "Name": "OATP1B1-Tirona 2003",
-              "MoleculeName": "OATP1B1"
-            },
-            {
-              "Name": "P-gp-Collett 2004",
-              "MoleculeName": "P-gp"
-            },
-            {
-              "Name": "Glomerular Filtration-GFR",
-              "SystemicProcessType": "GFR"
-            }
-          ],
-          "Protocol": {
-            "Name": "Rifampicin DDI - Rifampicin",
-            "Formulations": [
-              {
-                "Name": "Solution",
-                "Key": "Formulation"
-              }
-            ]
-          }
-        },
         {
           "Name": "DabiEtex",
           "CalculationMethods": [
@@ -6899,6 +7108,61 @@
               "SystemicProcessType": "GFR"
             }
           ]
+        },
+        {
+          "Name": "Rifampicin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Rodgers and Rowland",
+            "Cellular permeability - PK-Sim Standard"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Optimized",
+              "GroupName": "COMPOUND_INTESTINAL_PERMEABILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "AADAC-Nakajima 2011",
+              "MoleculeName": "AADAC"
+            },
+            {
+              "MoleculeName": "CYP3A4"
+            },
+            {
+              "MoleculeName": "UGT1A4"
+            },
+            {
+              "MoleculeName": "CES1"
+            },
+            {
+              "MoleculeName": "CES2"
+            },
+            {
+              "MoleculeName": "UGT2B15"
+            },
+            {
+              "Name": "OATP1B1-Tirona 2003",
+              "MoleculeName": "OATP1B1"
+            },
+            {
+              "Name": "P-gp-Collett 2004",
+              "MoleculeName": "P-gp"
+            },
+            {
+              "Name": "Glomerular Filtration-GFR",
+              "SystemicProcessType": "GFR"
+            }
+          ],
+          "Protocol": {
+            "Name": "Rifampicin DDI - Rifampicin",
+            "Formulations": [
+              {
+                "Name": "Solution",
+                "Key": "Formulation"
+              }
+            ]
+          }
         }
       ],
       "ObserverSets": [
@@ -6952,6 +7216,7 @@
               "X": "Time",
               "Y": "Härtter 2012 - DDI Control|Organism|PeripheralVenousBlood|Dabigatran|SUM",
               "CurveOptions": {
+                "Visible": false,
                 "Color": "#00C0C0",
                 "LegendIndex": 11
               }
@@ -6972,6 +7237,7 @@
               "X": "Härtter 2012_Rifa-Dabi_Control_SUM|Time",
               "Y": "Härtter 2012_Rifa-Dabi_Control_SUM|ObservedData||||Measurement",
               "CurveOptions": {
+                "Visible": false,
                 "Color": "#00C0C0",
                 "LegendIndex": 15,
                 "LineStyle": "None",
@@ -6997,7 +7263,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Dabigatran-Model\nHärtter 2012 - DDI Control\n2026-05-18 11:20"
+          "OriginText": "Dabigatran-Model\nHärtter 2012 - DDI Control\n2026-07-08 08:42"
         }
       ],
       "Interactions": [
@@ -7007,18 +7273,13 @@
           "CompoundName": "Rifampicin"
         },
         {
-          "Name": "OATP1B1-Hirano 2006",
-          "MoleculeName": "OATP1B1",
-          "CompoundName": "Rifampicin"
-        },
-        {
-          "Name": "P-gp-Reitman 2011",
+          "Name": "P-gp-Hanke 2021",
           "MoleculeName": "P-gp",
           "CompoundName": "Rifampicin"
         },
         {
-          "Name": "AADAC-Assumed",
-          "MoleculeName": "AADAC",
+          "Name": "OATP1B1-Hanke 2021",
+          "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
         },
         {
@@ -7027,13 +7288,18 @@
           "CompoundName": "Rifampicin"
         },
         {
-          "Name": "OATP1B1-Dixit 2007",
-          "MoleculeName": "OATP1B1",
+          "Name": "AADAC-Assumed",
+          "MoleculeName": "AADAC",
           "CompoundName": "Rifampicin"
         },
         {
           "Name": "P-gp-Greiner 1999",
           "MoleculeName": "P-gp",
+          "CompoundName": "Rifampicin"
+        },
+        {
+          "Name": "OATP1B1-Dixit 2007",
+          "MoleculeName": "OATP1B1",
           "CompoundName": "Rifampicin"
         }
       ]
@@ -10376,8 +10642,8 @@
         "1160-0061_150_D953_Mean",
         "1160-0061_110_SUM_Mean",
         "1160-0061_150_SUM_Mean",
-        "1160-0061_110_D1048_Mean",
-        "1160-0061_150_D1048_Mean"
+        "1160-0061_150_D1048_Mean",
+        "1160-0061_110_D1048_Mean"
       ]
     },
     {
