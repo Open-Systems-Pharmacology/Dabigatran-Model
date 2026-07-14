@@ -1,6 +1,6 @@
 **Blech 2008** Blech S, Ebner T, Ludwig-Schwellinger E, Stangier J, Roth W. The metabolism and disposition of the oral direct thrombin inhibitor, dabigatran, in humans. Drug Metab Dispos. 2008 Feb;36(2):386–399. doi: 10.1124/dmd.107.019083.  
 
-**Delavenne 2013** Delavenne X, Ollier E, Basset T, Bertoletti L, Accassat S, Garcin A, Laporte S, Zufferey P, Mismetti P. A semi-mechanistic absorption model to evaluate drug–drug interaction with dabigatran: application with clarithromycin. Br J Clin Pharmacol. 2013 Jul;76(1):107–113. doi: 10.1111/bcp.12055.  
+**Delavenne 2012** Delavenne X, Ollier E, Basset T, Bertoletti L, Accassat S, Garcin A, Laporte S, Zufferey P, Mismetti P. A semi-mechanistic absorption model to evaluate drug–drug interaction with dabigatran: application with clarithromycin. Br J Clin Pharmacol. 2013 Jul;76(1):107–113. doi: 10.1111/bcp.12055.  
 
 **Härtter 2012** Härtter S, Koenen-Bergmann M, Sharma A, Nehmiz G, Lemke U, Timmer W, Reilly PA. Decrease in the oral bioavailability of dabigatran etexilate after co-medication with rifampicin. Br J Clin Pharmacol. 2012 Sep;74(3):490–500. doi: 10.1111/j.1365-2125.2012.04218.x.  
 
