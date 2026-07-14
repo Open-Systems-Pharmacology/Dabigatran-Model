@@ -13,7 +13,7 @@ For the model parameter `Specific organ permeability` the calculated values were
 
 - For dabigatran etexilate the final model includes transport by Pgp, prodrug ester cleavage by CES1 and CES2 and passive renal filtration (trace amounts excreted in urine following oral administration). 
 - For dabigatran the final model includes glucuronidation by UGT2B15 and renal excretion (70.6-76.2% excreted in urine following intravenous, 4.3% excreted in urine following oral administration). 
-- For dabigatran glucuronide the final model includes renal excretion only, implemented with the GFR fraction parameter value from the original model by [Moj et al. 2019](#main-references). Dabigatran glucuronide in urine is not meaningful in clinical pratice (2.7-6.4% excreted in urine following intravenous, 0.4% excreted in urine following oral administration) and there is little data to inform the estimation of dabigatran glucuronide GFR fraction. 
+- For dabigatran glucuronide the final model includes renal excretion only, implemented with the GFR fraction parameter value from the original model by [Moj et al. 2019](#main-references). Dabigatran glucuronide in urine is not meaningful in clinical practice (2.7-6.4% excreted in urine following intravenous, 0.4% excreted in urine following oral administration) and there is little data to inform the estimation of dabigatran glucuronide GFR fraction. 
 
 ### Automated Parameter Identification <a id="model-parameters-and-assumptions-parameter-identification"></a>
 
