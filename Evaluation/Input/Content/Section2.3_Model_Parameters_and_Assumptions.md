@@ -7,7 +7,7 @@ The dissolution of capsules was implemented via an empirical Weibull function, u
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
 After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by `Rodgers and Rowland` and cellular permeability calculation by `PK-Sim Standard` for all three compounds. 
-For the model parameter `Specific organ permeability` the calculated values were used for all three compounds, with the `Lipophilicity` values optimized to best match clinical data (see [Section 2.3.1](#model-parameters-and-assumptions-absorption)). 
+For the model parameter `Specific organ permeability` the calculated values were used for all three compounds, with the `Lipophilicity` values optimized to best match clinical data (see [Section 2.3.4](#model-parameters-and-assumptions-absorption)). 
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
