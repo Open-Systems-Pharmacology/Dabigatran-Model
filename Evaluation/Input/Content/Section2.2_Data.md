@@ -56,5 +56,5 @@ The following studies were used for model verification (test data):
 | :-------------------------- | :---------------------------------------------------- |
 | 1160-0074 internal clinical trial report 2009 | Oral capsule administration of 150 mg (single dose)           |
 | 1160-0082 internal clinical trial report 2008 | Oral capsule administration of 150 mg (single dose)           |
-| [Delavenne 2013](#main-references) | Oral capsule administration of 300 mg (single dose)           |
+| [Delavenne 2012](#main-references) | Oral capsule administration of 300 mg (single dose)           |
 
