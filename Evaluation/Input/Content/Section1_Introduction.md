@@ -4,6 +4,4 @@ Following the activation of the prodrug to dabigatran (or following intravenous 
 
 The presented whole-body PBPK model is based on the model developed by [Moj et al. 2019](#main-references) and includes dabigatran etexilate, dabigatran and the pharmacologically active metabolite dabigatran acylglucuronide. It was established to be used for DDI prediction, because dabigatran etexilate is a widely used Pgp substrate in clinical DDI studies.  
 
-The herein presented model building and evaluation report evaluates the performance of the PBPK model for dabigatran in healthy adults.
-
-The presented dabigatran PBPK model as well as the respective evaluation plan and evaluation report are provided open-source ([https://github.com/Open-Systems-Pharmacology/Dabigatran-Model](https://github.com/Open-Systems-Pharmacology/Dabigatran-Model)). The DDI performance is documented in the DDI qualification report ([https://github.com/Open-Systems-Pharmacology/COMPOUND-Model](https://github.com/Open-Systems-Pharmacology/COMPOUND-Model)). 
+The herein presented model building and evaluation report evaluates the performance of the PBPK model for dabigatran in healthy adults. 
