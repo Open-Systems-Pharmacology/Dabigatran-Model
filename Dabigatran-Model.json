@@ -2296,8 +2296,8 @@
           "Parameters": [
             {
               "Name": "Solubility at reference pH",
-              "Value": 17.0,
-              "Unit": "mg/l"
+              "Value": 0.017,
+              "Unit": "mg/ml"
             },
             {
               "Name": "Reference pH",
