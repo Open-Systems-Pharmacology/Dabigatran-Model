@@ -178,7 +178,7 @@
       {
         "Title": "Goodness of fit plot for concentration in plasma",
         "SectionReference": "Plots",
-        "PlotTypes": ["predictedVsObserved"],
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
         "Artifacts": ["Plot"],
         "Groups": [
           {
@@ -294,7 +294,7 @@
       {
         "Title": "Residuals",
         "SectionReference": "Plots",
-        "PlotTypes": ["residualsOverTime"],
+        "PlotTypes": ["predictedVsObserved", "residualsOverTime"],
         "Artifacts": ["GMFE"],
         "Groups": [
           {
