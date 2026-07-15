@@ -2388,7 +2388,7 @@
           "Parameters": [
             {
               "Name": "Lipophilicity",
-              "Value": -0.8,
+              "Value": -0.80,
               "Unit": "Log Units",
               "ValueOrigin": {
                 "Source": "ParameterIdentification",
