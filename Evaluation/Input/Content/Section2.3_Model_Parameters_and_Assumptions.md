@@ -22,9 +22,9 @@ These are the results of the two final sequential parameter identifications.
 
 | Model Parameter      | Optimized Value | Unit |
 | -------------------- | --------------- | ---- |
-| `Dabigatran logP` | 1.144                |      |
-| `Dabigatran UGT2B15 kcat` | 4.299                | 1/min     |
-| `Dabigatran GFR fraction` | 1.228                |      |
+| `Dabigatran logP` | 1.1436481967                |      |
+| `Dabigatran UGT2B15 kcat` | 4.2993761606                | 1/min     |
+| `Dabigatran GFR fraction` | 1.2278243749                |      |
 | `Dabigatran glucuronide logP` | -0.80                |      |
 | `Dabigatran glucuronide GFR fraction` | 6.36 (fixed)                |      |
 
@@ -32,8 +32,8 @@ These are the results of the two final sequential parameter identifications.
 
 | Model Parameter      | Optimized Value | Unit |
 | -------------------- | --------------- | ---- |
-| `Dabigatran etexilate logP` | 1.809                |      |
+| `Dabigatran etexilate logP` | 1.8088312812                |      |
 | `Dabigatran etexilate Pgp kcat` | 0.46                | 1/min     |
-| `Dabigatran etexilate CES1 kcat` | 10.815                | 1/min     |
-| `Dabigatran etexilate CES2 kcat` | 0.721                | 1/min     |
+| `Dabigatran etexilate CES1 kcat` | 10.8149677921                | 1/min     |
+| `Dabigatran etexilate CES2 kcat` | 0.7209978528                | 1/min     |
 | `Dabigatran etexilate GFR fraction` | 1.00 (fixed)                |      |
