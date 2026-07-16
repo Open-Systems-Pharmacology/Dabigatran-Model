@@ -1,6 +1,6 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
-Absorption of dabigatran etexilate is influenced by intestinal permeability and Pgp transport. The calculated value was used for `Specific intestinal permeability`. The value for Pgp kcat was estimated, informed by Rifampicin-Dabigatran Pgp-induction DDI data. 
+Absorption of dabigatran etexilate is influenced by intestinal permeability and P-gp transport. The calculated value was used for `Specific intestinal permeability`. The value for P-gp kcat was estimated, informed by Rifampicin-Dabigatran P-gp-induction DDI data. 
 
 The dissolution of capsules was implemented via an empirical Weibull function, using the Weibull parameters from the original model by [Moj et al. 2019](#main-references). 
 
@@ -11,7 +11,7 @@ For the model parameter `Specific organ permeability` the calculated values were
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
-- For dabigatran etexilate the final model includes transport by Pgp, prodrug ester cleavage by CES1 and CES2 and passive renal filtration (trace amounts excreted in urine following oral administration). 
+- For dabigatran etexilate the final model includes transport by P-gp, prodrug ester cleavage by CES1 and CES2 and passive renal filtration (trace amounts excreted in urine following oral administration). 
 - For dabigatran the final model includes glucuronidation by UGT2B15 and renal excretion (70.6-76.2% excreted in urine following intravenous, 4.3% excreted in urine following oral administration). 
 - For dabigatran glucuronide the final model includes renal excretion only, implemented with the GFR fraction parameter value from the original model by [Moj et al. 2019](#main-references). Dabigatran glucuronide in urine is not meaningful in clinical practice (2.7-6.4% excreted in urine following intravenous, 0.4% excreted in urine following oral administration) and there is little data to inform the estimation of dabigatran glucuronide GFR fraction. 
 
@@ -33,7 +33,7 @@ These are the results of the two final sequential parameter identifications.
 | Model Parameter      | Optimized Value | Unit |
 | -------------------- | --------------- | ---- |
 | `Dabigatran etexilate logP` | 1.8088312812                |      |
-| `Dabigatran etexilate Pgp kcat` | 0.46                | 1/min     |
+| `Dabigatran etexilate P-gp kcat` | 0.46                | 1/min     |
 | `Dabigatran etexilate CES1 kcat` | 10.8149677921                | 1/min     |
 | `Dabigatran etexilate CES2 kcat` | 0.7209978528                | 1/min     |
 | `Dabigatran etexilate GFR fraction` | 1.00 (fixed)                |      |
