@@ -6,15 +6,14 @@ The dabigatran PBPK model was developed using a stepwise modeling strategy. Firs
 
 As many clinical reports provide "total dabigatran" = (dabigatran + dabigatran glucuronide) plasma concentrations instead of dabigatran glucuronide measurements, an observer for "dabigatran sum" was incorporated and used in parameter identifications. In addition, observers for fraction excreted to urine following intravenous administration of dabigatran (for dabigatran glucuronide) and fraction excreted to urine following oral administration of dabigatran etexilate (for dabigatran and dabigatran glucuronide) were implemented. 
 
-Then, the model was extended to include the orally administered prodrug dabigatran etexilate. This step required incorporation of Pgp-mediated transport affecting its absorption and CES1/CES2-mediated prodrug activation to produce dabigatran. 
+Then, the model was extended to include the orally administered prodrug dabigatran etexilate. This step required incorporation of P-gp-mediated transport affecting its absorption and CES1/CES2-mediated prodrug activation to produce dabigatran. 
 
 The respective contributions of CES1 and CES2 were informed by data from the RE-LY trial ([Paré 2013](#main-references)), reporting that patients carrying 2 minor CES1 alleles (modeled as complete loss of CES1 activity) show a 28% reduction of their total dabigatran plasma concentration trough values (dabigatran + dabigatran glucuronide). 
 
-While the original model considered data of 2 different clinical DDI studies (rifampicin-mediated Pgp induction ([Härtter 2012](#main-references)) and clarithromycin-mediated Pgp inhibition ([Delavenne 2012](#main-references))), data of 7 further clinical DDI trials were included for the model update, adding Pgp inhibition by rifampicin (n=2), itraconazole (n=1), verapamil (n=1), and additional clarithromycin studies (n=3). 
+While the original model considered data of 2 different clinical DDI studies (rifampicin-mediated P-gp induction ([Härtter 2012](#main-references)) and clarithromycin-mediated P-gp inhibition ([Delavenne 2012](#main-references))), data of 7 further clinical DDI trials were included for the model update, adding P-gp inhibition by rifampicin (n=2), itraconazole (n=1), verapamil (n=1), and additional clarithromycin studies (n=3). 
 
 Unknown parameters were identified using the PK‑Sim® Parameter Identification module. Model evaluation included comparison of predicted versus observed concentration–time profiles, goodness-of-fit plots, and geometric mean fold error (GMFE) analysis.
 
 Details about input data (physico-chemical, *in vitro* and clinical) can be found in [Section 2.2](#methods-data).
 
 Details about the structural model and its parameters can be found in [Section 2.3](#model-parameters-and-assumptions).
-
