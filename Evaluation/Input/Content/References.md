@@ -10,9 +10,9 @@
 
 **Paré 2013** Paré G, Eriksson N, Lehr T, Connolly S, Eikelboom J, Ezekowitz MD, Axelsson T, Haertter S, Oldgren J, Reilly P, Siegbahn A, Syvanen AC, Wadelius C, Wadelius M, Zimdahl-Gelling H, Yusuf S, Wallentin L. Genetic Determinants of Dabigatran Plasma Levels and Their Relation to Bleeding. Circulation. 2013 Apr;127(13):1404–12. doi: 10.1161/CIRCULATIONAHA.112.001233.  
 
-**PK-Sim Ontogeny Database** ([https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-Sim%20Ontogeny%20Database.pdf](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/master/PK-Sim%20Ontogeny%20Database.pdf)) 
+**PK-Sim Ontogeny Database** ([https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/v1.0/PK-Sim%20Ontogeny%20Database.pdf](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation/blob/v1.0/PK-Sim%20Ontogeny%20Database.pdf)) 
 
-**PK-Sim Open Systems Pharmacology Suite** PK-Sim® and MoBi® Documentation. ([https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation](https://github.com/Open-Systems-Pharmacology/OSPSuite.Documentation)) 
+**PK-Sim Open Systems Pharmacology Suite** PK-Sim® and MoBi® Documentation. ([https://docs.open-systems-pharmacology.org/](https://docs.open-systems-pharmacology.org/)) 
 
 **Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. doi: 10.1007/s40262-016-0422-3. 
 
